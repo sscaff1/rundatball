@@ -1,3 +1,17 @@
 {
-  "extends": "@nolajs/eslint-config"
+  "extends": "@nolajs/eslint-config",
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/anchor-is-valid": "off"
+  },
+  "overrides": [
+    {
+      "files": "scripts/**/*",
+      "env": {
+        "browser": true,
+        "node": true
+      }
+    }
+  ]
 }

@@ -1,9 +1,8 @@
 import fs from 'fs';
-import matter from 'gray-matter';
 import Link from 'next/link';
 import path from 'path';
 import Layout from '../components/Layout';
-import { postFilePaths, POSTS_PATH } from '../utils/mdxUtils';
+import { prepareMdx, postFilePaths, POSTS_PATH } from '../utils/mdxUtils';
 
 export default function Index({ posts }) {
   return (
@@ -25,17 +24,18 @@ export default function Index({ posts }) {
   );
 }
 
-export function getStaticProps() {
-  const posts = postFilePaths.map((filePath) => {
+export const getStaticProps = async () => {
+  const postPromises = postFilePaths.map(async (filePath) => {
     const source = fs.readFileSync(path.join(POSTS_PATH, filePath));
-    const { content, data } = matter(source);
+    const { frontmatter } = await prepareMdx(source);
 
     return {
-      content,
-      data,
+      data: frontmatter,
       filePath,
     };
   });
 
+  const posts = await Promise.all(postPromises);
+
   return { props: { posts } };
-}
+};

@@ -1,14 +1,10 @@
 import fs from 'fs';
 import { useMemo } from 'react';
-import { bundleMDX } from 'mdx-bundler';
 import { getMDXComponent } from 'mdx-bundler/client';
-import dynamic from 'next/dynamic';
-import Head from 'next/head';
 import Link from 'next/link';
 import path from 'path';
-import CustomLink from '../../components/CustomLink';
 import Layout from '../../components/Layout';
-import { postFilePaths, POSTS_PATH } from '../../utils/mdxUtils';
+import { postFilePaths, POSTS_PATH, prepareMdx } from '../../utils/mdxUtils';
 
 export default function PostPage({ code, frontmatter }) {
   const Component = useMemo(() => getMDXComponent(code), [code]);
@@ -50,28 +46,7 @@ export const getStaticProps = async ({ params }) => {
   const postFilePath = path.join(POSTS_PATH, `${params.slug}.mdx`);
   const source = fs.readFileSync(postFilePath);
 
-  const { code, frontmatter } = await bundleMDX(source, {
-    files: {
-      './TestComponent': `
-    export default function TestComponent({ name = 'world' }) {
-      return (
-        <>
-          <div>Hello, {name}!</div>
-          <style jsx>{\`
-            div {
-              background-color: #111;
-              border-radius: 0.5em;
-              color: #fff;
-              margin-bottom: 1.5em;
-              padding: 0.5em 0.75em;
-            }
-          \`}</style>
-        </>
-      )
-    }
-    `,
-    },
-  });
+  const { code, frontmatter } = await prepareMdx(source);
   return {
     props: {
       code,
