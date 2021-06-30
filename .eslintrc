@@ -1,5 +1,5 @@
 {
-  "extends": "@nolajs/eslint-config",
+  "extends": ["@nolajs/eslint-config", "next"],
   "rules": {
     "react/jsx-filename-extension": "off",
     "react/react-in-jsx-scope": "off",

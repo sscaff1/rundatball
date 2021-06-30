@@ -25,19 +25,6 @@ export default function PostPage({ code, frontmatter }) {
       <main>
         <Component />
       </main>
-
-      <style jsx>{`
-        .post-header h1 {
-          margin-bottom: 0;
-        }
-
-        .post-header {
-          margin-bottom: 2rem;
-        }
-        .description {
-          opacity: 0.6;
-        }
-      `}</style>
     </Layout>
   );
 }
