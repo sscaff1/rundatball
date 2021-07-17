@@ -4,11 +4,12 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 import NProgress from 'nprogress';
 import Router from 'next/router';
 
-// import theme from 'themes/default';
+import theme from 'themes/default';
 import 'styles/global.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'nprogress/nprogress.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import { DarkModeProvider } from 'context/DarkContext';
 
 config.autoAddCss = false;
 
@@ -28,10 +29,12 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
     return (
-      <ThemeProvider theme={theme}>
-        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <DarkModeProvider>
+        <ThemeProvider theme={theme}>
+          {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </DarkModeProvider>
     );
   }
 }
