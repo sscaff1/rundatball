@@ -6,7 +6,7 @@ import Router from 'next/router';
 
 import theme from 'themes/default';
 import 'styles/global.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import 'nprogress/nprogress.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { DarkModeProvider } from 'context/DarkContext';
