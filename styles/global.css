@@ -5,4 +5,5 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  transition: background-color, color 0.5s ease;
 }

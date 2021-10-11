@@ -25,31 +25,9 @@ const links = [
 ];
 
 const useStyles = createUseStyles((theme) => ({
-  // brand: {
-  //   '& h3': {
-  //     marginBottom: 0,
-  //   },
-  //   '@media (max-width: 768px)': {
-  //     height: 1,
-  //     position: 'absolute',
-  //     textIndent: -99999,
-  //     visibility: 'hidden',
-  //     width: 1,
-  //   },
-  // },
-  // navbar: {
-  //   '& a': {
-  //     textShadow: theme.shadow.text,
-  //   },
-  //   '&.notHome': {
-  //     background: theme.palette.primary.dark,
-  //     position: 'relative',
-  //   },
-  //   background: theme.palette.primary.dark,
-  // },
-  // navbarContainer: {
-  //   maxWidth: 800,
-  // },
+  h3: {
+    marginBottom: 0,
+  },
   toggle: {
     border: 0,
     margin: 0,
@@ -100,10 +78,13 @@ const Header = () => {
     <>
       <Navbar
         expand="md"
-        light
+        light={!darkMode}
+        dark={darkMode}
         className="d-flex justify-content-between align-items-center px-2 d-md-none"
       >
-        <NavbarBrand href="/">Run That Ball</NavbarBrand>
+        <NavbarBrand href="/">
+          <h3 className={classes.h3}>Run That Ball</h3>
+        </NavbarBrand>
         {socialContent}
         <Collapse isOpen={isOpen} navbar>
           {navbarContent}
@@ -118,6 +99,16 @@ const Header = () => {
         {navbarContent}
         {socialContent}
       </Navbar>
+      <div className="custom-shape-divider-bottom-1627947477">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill" />
+        </svg>
+      </div>
     </>
   );
 };

@@ -1,4 +1,3 @@
-import fs from 'fs';
 import Link from 'next/link';
 import path from 'path';
 import Layout from '../components/Layout';
@@ -26,8 +25,7 @@ export default function Index({ posts }) {
 
 export const getStaticProps = async () => {
   const postPromises = postFilePaths.map(async (filePath) => {
-    const source = fs.readFileSync(path.join(POSTS_PATH, filePath));
-    const { frontmatter } = await prepareMdx(source);
+    const { frontmatter } = await prepareMdx(path.join(POSTS_PATH, filePath));
 
     return {
       data: frontmatter,

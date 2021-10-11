@@ -7,7 +7,6 @@ const useStyles = createUseStyles((theme) => ({
       backgroundColor: ({ darkMode }) =>
         darkMode ? theme.dark.palette.background : theme.palette.background,
       color: ({ darkMode }) => (darkMode ? theme.dark.palette.text : theme.palette.text),
-      transition: 'background-color, color 0.5s ease',
     },
   },
 }));

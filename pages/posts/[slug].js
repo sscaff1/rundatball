@@ -1,4 +1,3 @@
-import fs from 'fs';
 import { useMemo } from 'react';
 import { getMDXComponent } from 'mdx-bundler/client';
 import Link from 'next/link';
@@ -30,10 +29,7 @@ export default function PostPage({ code, frontmatter }) {
 }
 
 export const getStaticProps = async ({ params }) => {
-  const postFilePath = path.join(POSTS_PATH, `${params.slug}.mdx`);
-  const source = fs.readFileSync(postFilePath);
-
-  const { code, frontmatter } = await prepareMdx(source);
+  const { code, frontmatter } = await prepareMdx(path.join(POSTS_PATH, `${params.slug}.mdx`));
   return {
     props: {
       code,

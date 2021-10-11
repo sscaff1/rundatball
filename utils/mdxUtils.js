@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { bundleMDX } from 'mdx-bundler';
+import { bundleMDXFile } from 'mdx-bundler';
 
 // POSTS_PATH is useful when you want to get the path to a specific file
 export const POSTS_PATH = path.join(process.cwd(), 'posts');
@@ -14,10 +14,10 @@ export const postFilePaths = fs
   // Only include md(x) files
   .filter((folderPath) => /\.mdx?$/.test(folderPath));
 
-export const prepareMdx = (ui) => {
+export const prepareMdx = (sourcePath) => {
   const files = fs.readdirSync(COMPONENT_PATH).reduce((obj, compPath) => {
     const textContent = fs.readFileSync(path.join(COMPONENT_PATH, compPath), 'utf-8');
     return { ...obj, [`./${compPath.replace(/\.js$/, '')}`]: textContent.replace(/\n/g, '') };
   }, {});
-  return bundleMDX(ui, { files });
+  return bundleMDXFile(sourcePath, { files });
 };
