@@ -11,7 +11,8 @@ async function getTeamStats(browser, { year }) {
       'Oakland Raiders': 'Las Vegas Raiders',
       'San Diego Chargers': 'Los Angeles Chargers',
       'St. Louis Rams': 'Los Angeles Rams',
-      'Washington Redskins': 'Washington Football Team',
+      'Washington Football Team': 'Washington Commanders',
+      'Washington Redskins': 'Washington Commanders',
     };
     const trs = [
       ...document.querySelectorAll(`#afc_playoff_standings tbody tr[data-row] [data-stat]`),
@@ -65,7 +66,7 @@ async function getTeamStats(browser, { year }) {
 
 (async () => {
   const browser = await p.launch({ headless: false });
-  const years = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020];
+  const years = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021];
   const promises = years.map((y) => getTeamStats(browser, { year: y }));
   const teamsByYear = await Promise.all(promises);
   const json = years.reduce(
