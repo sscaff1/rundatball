@@ -1,13 +1,9 @@
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink, NavbarToggler, Collapse } from 'reactstrap';
-import { createUseStyles } from 'utils/theming';
-import cn from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter } from '@fortawesome/fontawesome-free-brands';
-import { useDarkMode } from 'context/DarkContext';
-import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
 const links = [
   {
@@ -24,24 +20,9 @@ const links = [
   },
 ];
 
-const useStyles = createUseStyles((theme) => ({
-  h3: {
-    marginBottom: 0,
-  },
-  toggle: {
-    border: 0,
-    margin: 0,
-    outline: 'none',
-    padding: 0,
-  },
-}));
-
 const Header = () => {
   const [isOpen, setIsOpen] = useState();
-  const classes = useStyles();
   const router = useRouter();
-  const { darkMode, toggleDarkMode } = useDarkMode();
-  const isHome = router.pathname === '/';
   const navbarContent = useMemo(
     () => (
       <Nav navbar>
@@ -66,24 +47,19 @@ const Header = () => {
         <a href="#" target="_blank" rel="noopener noreferrer nofollow" className="mx-2">
           <FontAwesomeIcon icon={faTwitter} size="lg" />
         </a>
-        <div className={cn(classes.toggle, 'mx-2')}>
-          <DarkModeSwitch checked={darkMode} size={26} onChange={toggleDarkMode} />
-        </div>
         <NavbarToggler onClick={() => setIsOpen((t) => !t)} />
       </Nav>
     ),
-    [classes.toggle, darkMode, toggleDarkMode],
+    [],
   );
   return (
     <>
       <Navbar
         expand="md"
-        light={!darkMode}
-        dark={darkMode}
         className="d-flex justify-content-between align-items-center px-2 d-md-none"
       >
         <NavbarBrand href="/">
-          <h3 className={classes.h3}>Run That Ball</h3>
+          <p>Run That Ball</p>
         </NavbarBrand>
         {socialContent}
         <Collapse isOpen={isOpen} navbar>

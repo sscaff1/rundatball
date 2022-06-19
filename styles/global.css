@@ -5,5 +5,9 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-  transition: background-color, color 0.5s ease;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
 }
