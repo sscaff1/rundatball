@@ -17,7 +17,15 @@ export const postFilePaths = fs
 export const prepareMdx = (sourcePath) => {
   const files = fs.readdirSync(COMPONENT_PATH).reduce((obj, compPath) => {
     const textContent = fs.readFileSync(path.join(COMPONENT_PATH, compPath), 'utf-8');
-    return { ...obj, [`./${compPath.replace(/\.js$/, '')}`]: textContent.replace(/\n/g, '') };
+    return {
+      ...obj,
+      [`./${compPath.replace(/\.js$/, '')}`]: textContent,
+    };
   }, {});
-  return bundleMDX({ files, source: sourcePath });
+  const mdxSource = fs.readFileSync(sourcePath, 'utf-8');
+
+  return bundleMDX({
+    files,
+    source: mdxSource,
+  });
 };
