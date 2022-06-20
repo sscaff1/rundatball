@@ -233,9 +233,7 @@ const TeamOverTimeChart = () => {
       updateChart(team, metric);
     });
     return () => {
-      g.selectAll('path').remove();
-      xAxisDraw.remove();
-      yAxisDraw.remove();
+      g.remove();
     };
   }, [svgHeight, svgWidth]);
   return (

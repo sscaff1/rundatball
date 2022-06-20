@@ -81,9 +81,9 @@ const TeamCharts = () => {
               .style('fill', (d) => teamColors[d.currentTeamName][0])
               .attr('height', yScale.bandwidth())
               .attr('x', 0)
+              .attr('y', (d) => yScale(d.currentTeamName))
               .transition()
               .duration(500)
-              .attr('y', (d) => yScale(d.currentTeamName))
               .attr('width', (d) => xScale(d[metric]));
           },
           (update) =>
