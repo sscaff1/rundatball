@@ -44,13 +44,10 @@ const TeamCharts = () => {
   const isMobile = useMobileSize();
   const svgWidth = isMobile ? svgWidthSm : svgWidthBig;
   const svgHeight = isMobile ? svgHeightSm : svgHeightBig;
-
   useEffect(() => {
     const margin = { bottom: 20, left: 5, right: 10, top: 20 };
     const width = svgWidth - margin.left - margin.right;
     const height = svgHeight - margin.top - margin.bottom;
-    // clean up
-    d3.select(svgRef.current).selectAll('g').remove();
     const g = d3
       .select(svgRef.current)
       .append('g')
@@ -66,10 +63,10 @@ const TeamCharts = () => {
     const yAxisDraw = g.append('g').attr('class', 'y axis');
     let metric = 'pass_yds';
     let year = '2021';
-    const updateChart = (sYear, sMetric) => {
+    const updateChart = () => {
       // scales
-      const stats = jsonStats[sYear].sort((a, b) => d3.descending(a[sMetric], b[sMetric]));
-      const [min, max] = d3.extent(stats, (d) => d[sMetric]);
+      const stats = jsonStats[year].sort((a, b) => d3.descending(a[metric], b[metric]));
+      const [min, max] = d3.extent(stats, (d) => d[metric]);
       xScale.domain([min * 0.6, max * 1.1]);
       yScale.domain(stats.map((d) => d.currentTeamName));
 
@@ -87,15 +84,15 @@ const TeamCharts = () => {
               .transition()
               .duration(500)
               .attr('y', (d) => yScale(d.currentTeamName))
-              .attr('width', (d) => xScale(d[sMetric]));
+              .attr('width', (d) => xScale(d[metric]));
           },
           (update) =>
             update
               .transition()
               .duration(500)
               .attr('y', (d) => yScale(d.currentTeamName))
-              .attr('width', (d) => xScale(d[sMetric])),
-          (exit) => exit,
+              .attr('width', (d) => xScale(d[metric])),
+          (exit) => exit.remove(),
         )
         .attr('class', 'bar')
         .style('fill', (d) => teamColors[d.currentTeamName][0])
@@ -104,7 +101,7 @@ const TeamCharts = () => {
         .transition()
         .duration(500)
         .attr('y', (d) => yScale(d.currentTeamName))
-        .attr('width', (d) => xScale(d[sMetric]));
+        .attr('width', (d) => xScale(d[metric]));
       bars
         .selectAll('.playoff')
         .data(
@@ -121,7 +118,7 @@ const TeamCharts = () => {
               .style('font-size', `${yScale.bandwidth() / 2}px`)
               .transition()
               .duration(500)
-              .attr('x', (d) => xScale(d[sMetric]) + 5)
+              .attr('x', (d) => xScale(d[metric]) + 5)
               .attr(
                 'y',
                 (d) => yScale(d.currentTeamName) + yScale.bandwidth() / 2 + yScale.paddingOuter(),
@@ -130,7 +127,7 @@ const TeamCharts = () => {
             update
               .transition()
               .duration(500)
-              .attr('x', (d) => xScale(d[sMetric]) + 5)
+              .attr('x', (d) => xScale(d[metric]) + 5)
               .attr(
                 'y',
                 (d) => yScale(d.currentTeamName) + yScale.bandwidth() / 2 + yScale.paddingOuter(),
@@ -171,6 +168,11 @@ const TeamCharts = () => {
       year = e.target.value;
       updateChart(year, metric);
     });
+    return () => {
+      bars.remove();
+      xAxisDraw.remove();
+      yAxisDraw.remove();
+    };
   }, [svgHeight, svgWidth]);
   return (
     <div>
