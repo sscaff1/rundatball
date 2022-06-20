@@ -3,7 +3,6 @@ import NProgress from 'nprogress';
 import Router from 'next/router';
 
 import 'styles/global.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import 'nprogress/nprogress.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 

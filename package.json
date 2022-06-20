@@ -12,7 +12,6 @@
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
-    "bootstrap": "^5.1.3",
     "classnames": "^2.3.1",
     "d3": "^7.4.4",
     "mdx-bundler": "^9.0.1",
@@ -20,8 +19,7 @@
     "next-remote-watch": "1.0.0",
     "nprogress": "^0.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "reactstrap": "^9.1.1"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@nolajs/eslint-config": "^2.1.1",

@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { getMDXComponent } from 'mdx-bundler/client';
 import Link from 'next/link';
 import path from 'path';
-import Layout from '../../components/Layout';
+import Layout from 'components/Layout/Layout';
 import { postFilePaths, POSTS_PATH, prepareMdx } from '../../utils/mdxUtils';
 
 export default function PostPage({ code, frontmatter }) {

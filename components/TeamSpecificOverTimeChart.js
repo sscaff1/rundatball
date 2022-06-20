@@ -192,10 +192,7 @@ const TeamOverTimeChart = () => {
         );
 
       g.selectAll('.playoffText')
-        .data(
-          stats.filter((d) => !!d.playoffFinish),
-          (d) => d.year,
-        )
+        .data(stats, (d) => d.year)
         .join(
           (enter) => {
             enter
@@ -204,14 +201,14 @@ const TeamOverTimeChart = () => {
               .attr('x', (d) => xScale(d.year))
               .attr('y', (d) => yScale(d[metric]) - 15)
               .style('text-anchor', 'middle')
-              .html('Playoff');
+              .html((d) => (d.playoffFinish ? `${d.conferencePlace}*` : d.conferencePlace));
           },
           (update) =>
             update
+              .html((d) => (d.playoffFinish ? `${d.conferencePlace}*` : d.conferencePlace))
               .transition()
               .duration(500)
-              .attr('x', (d) => xScale(d.year))
-              .attr('y', (d) => yScale(d[metric])),
+              .attr('y', (d) => yScale(d[metric]) - 15),
           (exit) => exit.remove(),
         );
 
@@ -253,7 +250,11 @@ const TeamOverTimeChart = () => {
         ))}
       </select>
       <div>
-        <div id="byTeamChartTitle" />
+        <div>
+          <div id="byTeamChartTitle" />
+          <p>Number is the conference rank at the end of the season</p>
+          <p>* means that the team made the playoffs</p>
+        </div>
         <svg preserveAspectRatio="xMinYMin meet" viewBox={`0 0 ${svgWidth} ${svgHeight}`}>
           <svg ref={svgRef} />
         </svg>

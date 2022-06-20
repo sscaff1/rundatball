@@ -2,7 +2,7 @@ import Link from 'next/link';
 import path from 'path';
 import TeamCharts from 'components/TeamCharts';
 import TeamOverTimeChart from 'components/TeamSpecificOverTimeChart';
-import Layout from '../components/Layout';
+import Layout from 'components/Layout/Layout';
 import { prepareMdx, postFilePaths, POSTS_PATH } from '../utils/mdxUtils';
 
 export default function Index({ posts }) {
