@@ -3,9 +3,9 @@ import styles from './Layout.module.css';
 
 export default function Layout({ children }) {
   return (
-    <div className={styles.root}>
+    <div className={styles.wrap}>
       <Header />
-      <div>{children}</div>
+      <main className={styles.root}>{children}</main>
     </div>
   );
 }

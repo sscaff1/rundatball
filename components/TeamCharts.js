@@ -121,7 +121,8 @@ const TeamCharts = () => {
               .attr('x', (d) => xScale(d[metric]) + 5)
               .attr(
                 'y',
-                (d) => yScale(d.currentTeamName) + yScale.bandwidth() / 2 + yScale.paddingOuter(),
+                (d) =>
+                  yScale(d.currentTeamName) + yScale.bandwidth() / 2 + yScale(yScale.domain()[0]),
               ),
           (update) =>
             update

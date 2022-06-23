@@ -47,7 +47,7 @@ const years = [
   '2010',
 ];
 
-const svgWidthBig = 800;
+const svgWidthBig = 900;
 const svgHeightBig = 600;
 
 const svgWidthSm = 420;
@@ -94,11 +94,11 @@ const TeamOverTimeChart = () => {
       .area()
       .x((d) => xScale(d.year))
       .y0(height)
-      .curve(d3.curveNatural);
+      .curve(d3.curveCatmullRom.alpha(0.5));
     const lineGen = d3
       .line()
       .x((d) => xScale(d.year))
-      .curve(d3.curveNatural);
+      .curve(d3.curveCatmullRom.alpha(0.5));
 
     let metric = 'pass_yds';
     let team = teams[0];

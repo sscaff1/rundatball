@@ -1,24 +1,14 @@
-import Link from 'next/link';
 import path from 'path';
-import TeamCharts from 'components/TeamCharts';
-import TeamOverTimeChart from 'components/TeamSpecificOverTimeChart';
 import Layout from 'components/Layout/Layout';
+import Post from 'components/Post/Post';
 import { prepareMdx, postFilePaths, POSTS_PATH } from '../utils/mdxUtils';
 
 export default function Index({ posts }) {
   return (
     <Layout>
-      <TeamCharts />
-      <TeamOverTimeChart />
-      <ul>
-        {posts.map((post) => (
-          <li key={post.filePath}>
-            <Link as={`/posts/${post.filePath.replace(/\.mdx?$/, '')}`} href="/posts/[slug]">
-              <a>{post.data.title}</a>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      {posts.map((post) => (
+        <Post key={post.filePath} />
+      ))}
     </Layout>
   );
 }
