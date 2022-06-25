@@ -1,0 +1,20 @@
+.body * {
+  line-height: 1.5;
+}
+
+.body h3 {
+  margin: 16px 0;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.root {
+  max-width: 700px;
+  margin: 0 auto;
+}

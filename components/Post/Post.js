@@ -1,20 +1,21 @@
 import Link from 'next/link';
 import styles from './Post.module.css';
 
-const Post = () => (
-  <Link href="/post-blah">
+const Post = ({ date, slug, summary, title }) => (
+  <Link
+    href={{
+      pathname: '/posts/[slug]',
+      query: { slug },
+    }}
+  >
     <a className={styles.wrap}>
       <article className={styles.article}>
         <div />
         {/* <Image src="http://placehold.jp/150x150.png" layout="fill" /> */}
         <div className={styles.root}>
-          <p className={styles.title}>Blog title</p>
-          <small className={styles.date}>July 7, 2022</small>
-          <p className={styles.description}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consequatur, veniam non
-            distinctio quibusdam tempora deleniti nobis sequi eaque architecto ipsa nemo ea, velit
-            corporis libero est maiores! Quia, eaque?
-          </p>
+          <p className={styles.title}>{title}</p>
+          <small className={styles.date}>{date}</small>
+          <p className={styles.description}>{summary}</p>
         </div>
       </article>
     </a>

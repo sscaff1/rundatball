@@ -3,6 +3,7 @@ import { getMDXComponent } from 'mdx-bundler/client';
 import Link from 'next/link';
 import path from 'path';
 import Layout from 'components/Layout/Layout';
+import styles from 'styles/post.module.css';
 import { postFilePaths, POSTS_PATH, prepareMdx } from '../../utils/mdxUtils';
 
 export default function PostPage({ code, frontmatter }) {
@@ -10,20 +11,22 @@ export default function PostPage({ code, frontmatter }) {
 
   return (
     <Layout>
-      <header>
-        <nav>
-          <Link href="/">
-            <a>👈 Go back home</a>
-          </Link>
-        </nav>
-      </header>
-      <div className="post-header">
-        <h1>{frontmatter.title}</h1>
-        {frontmatter.description && <p className="description">{frontmatter.description}</p>}
+      <div className={styles.root}>
+        <header className={styles.header}>
+          <nav>
+            <Link href="/">
+              <a>Go back home</a>
+            </Link>
+          </nav>
+        </header>
+        <div className={styles.title}>
+          <h2>{frontmatter.title}</h2>
+          {frontmatter.description && <p className="description">{frontmatter.description}</p>}
+        </div>
+        <main className={styles.body}>
+          <Component />
+        </main>
       </div>
-      <main>
-        <Component />
-      </main>
     </Layout>
   );
 }

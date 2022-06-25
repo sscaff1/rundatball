@@ -7,7 +7,13 @@ export default function Index({ posts }) {
   return (
     <Layout>
       {posts.map((post) => (
-        <Post key={post.filePath} />
+        <Post
+          key={post.filePath}
+          slug={post.filePath.replace(/\.mdx?$/, '')}
+          title={post.data.title}
+          summary={post.data.summary}
+          date={post.data.date}
+        />
       ))}
     </Layout>
   );
