@@ -3,7 +3,7 @@ import styles from './Layout.module.css';
 
 export default function Layout({ children }) {
   return (
-    <div className={styles.wrap}>
+    <div>
       <Header />
       <main className={styles.root}>{children}</main>
       <footer className={styles.footer}>

@@ -1,20 +1,23 @@
 import path from 'path';
 import Layout from 'components/Layout/Layout';
 import Post from 'components/Post/Post';
+import styles from 'styles/posts.module.css';
 import { prepareMdx, postFilePaths, POSTS_PATH } from '../utils/mdxUtils';
 
 export default function Index({ posts }) {
   return (
     <Layout>
-      {posts.map((post) => (
-        <Post
-          key={post.filePath}
-          slug={post.filePath.replace(/\.mdx?$/, '')}
-          title={post.data.title}
-          summary={post.data.summary}
-          date={post.data.date}
-        />
-      ))}
+      <div className={styles.root}>
+        {posts.map((post) => (
+          <Post
+            key={post.filePath}
+            slug={post.filePath.replace(/\.mdx?$/, '')}
+            title={post.data.title}
+            summary={post.data.summary}
+            date={post.data.date}
+          />
+        ))}
+      </div>
     </Layout>
   );
 }

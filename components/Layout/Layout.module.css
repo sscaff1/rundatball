@@ -1,13 +1,12 @@
-.wrap {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.root {
+  min-height: calc(100vh - 293px);
 }
 
-.root {
-  margin: 0 auto;
-  max-width: 1000px;
-  flex: 1;
+@media only screen and (max-width: 600px) {
+  .root {
+    padding: 0 10px
+  }
+  
 }
 
 .footer {
