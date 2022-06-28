@@ -1,0 +1,554 @@
+[
+  {
+      "year_id": "2021",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Aaron Rodgers",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2020",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Aaron Rodgers",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2019",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Lamar Jackson",
+      "team": "Baltimore Ravens",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2018",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Patrick Mahomes",
+      "team": "Kansas City Chiefs",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2017",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Tom Brady",
+      "team": "New England Patriots",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2016",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Matt Ryan",
+      "team": "Atlanta Falcons",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2015",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Cam Newton",
+      "team": "Carolina Panthers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2014",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Aaron Rodgers",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2013",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Peyton Manning",
+      "team": "Denver Broncos",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2012",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Adrian Peterson",
+      "team": "Minnesota Vikings",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2011",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Aaron Rodgers",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2010",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Tom Brady",
+      "team": "New England Patriots",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2009",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Peyton Manning",
+      "team": "Indianapolis Colts",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2008",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Peyton Manning",
+      "team": "Indianapolis Colts",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2007",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Tom Brady",
+      "team": "New England Patriots",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2006",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "LaDainian Tomlinson",
+      "team": "San Diego Chargers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2005",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Shaun Alexander",
+      "team": "Seattle Seahawks",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2004",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Peyton Manning",
+      "team": "Indianapolis Colts",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2003",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Steve McNair",
+      "team": "Tennessee Titans",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2003",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Peyton Manning",
+      "team": "Indianapolis Colts",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "Year",
+      "league_id": "Lg",
+      "pos": "Pos",
+      "player": "Player",
+      "team": "Tm",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2002",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Rich Gannon",
+      "team": "Oakland Raiders",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2001",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Kurt Warner",
+      "team": "St. Louis Rams",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "2000",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Marshall Faulk",
+      "team": "St. Louis Rams",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1999",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Kurt Warner",
+      "team": "St. Louis Rams",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1998",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Terrell Davis",
+      "team": "Denver Broncos",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1997",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Barry Sanders",
+      "team": "Detroit Lions",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1997",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Brett Favre",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1996",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Brett Favre",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1995",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Brett Favre",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1994",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Steve Young",
+      "team": "San Francisco 49ers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1993",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Emmitt Smith",
+      "team": "Dallas Cowboys",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1992",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Steve Young",
+      "team": "San Francisco 49ers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1991",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Thurman Thomas",
+      "team": "Buffalo Bills",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1990",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Joe Montana",
+      "team": "San Francisco 49ers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1989",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Joe Montana",
+      "team": "San Francisco 49ers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1988",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Boomer Esiason",
+      "team": "Cincinnati Bengals",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1987",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "John Elway",
+      "team": "Denver Broncos",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1986",
+      "league_id": "NFL",
+      "pos": "ROLB",
+      "player": "Lawrence Taylor",
+      "team": "New York Giants",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1985",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Marcus Allen",
+      "team": "Los Angeles Raiders",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1984",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Dan Marino",
+      "team": "Miami Dolphins",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "Year",
+      "league_id": "Lg",
+      "pos": "Pos",
+      "player": "Player",
+      "team": "Tm",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1983",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Joe Theismann",
+      "team": "Washington Redskins",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1982",
+      "league_id": "NFL",
+      "pos": "K",
+      "player": "Mark Moseley",
+      "team": "Washington Redskins",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1981",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Ken Anderson",
+      "team": "Cincinnati Bengals",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1980",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Brian Sipe",
+      "team": "Cleveland Browns",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1979",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Earl Campbell",
+      "team": "Houston Oilers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1978",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Terry Bradshaw",
+      "team": "Pittsburgh Steelers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1977",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Walter Payton",
+      "team": "Chicago Bears",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1976",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Bert Jones",
+      "team": "Baltimore Colts",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1975",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Fran Tarkenton",
+      "team": "Minnesota Vikings",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1974",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Ken Stabler",
+      "team": "Oakland Raiders",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1973",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "O.J. Simpson",
+      "team": "Buffalo Bills",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1972",
+      "league_id": "NFL",
+      "pos": "RB",
+      "player": "Larry Brown",
+      "team": "Washington Redskins",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1971",
+      "league_id": "NFL",
+      "pos": "RDT",
+      "player": "Alan Page",
+      "team": "Minnesota Vikings",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1970",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "John Brodie",
+      "team": "San Francisco 49ers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1969",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Roman Gabriel",
+      "team": "Los Angeles Rams",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1968",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Earl Morrall",
+      "team": "Baltimore Colts",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1967",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Johnny Unitas",
+      "team": "Baltimore Colts",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1966",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Bart Starr",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1965",
+      "league_id": "NFL",
+      "pos": "FB",
+      "player": "Jim Brown",
+      "team": "Cleveland Browns",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1964",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Johnny Unitas",
+      "team": "Baltimore Colts",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "Year",
+      "league_id": "Lg",
+      "pos": "Pos",
+      "player": "Player",
+      "team": "Tm",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1963",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Y.A. Tittle",
+      "team": "New York Giants",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1962",
+      "league_id": "NFL",
+      "pos": "FB",
+      "player": "Jim Taylor",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1961",
+      "league_id": "NFL",
+      "pos": "HB",
+      "player": "Paul Hornung",
+      "team": "Green Bay Packers",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1959",
+      "league_id": "NFL",
+      "pos": "QB",
+      "player": "Johnny Unitas",
+      "team": "Baltimore Colts",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1958",
+      "league_id": "NFL",
+      "pos": "FB",
+      "player": "Jim Brown",
+      "team": "Cleveland Browns",
+      "voting": "Voting"
+  },
+  {
+      "year_id": "1957",
+      "league_id": "NFL",
+      "pos": "FB",
+      "player": "Jim Brown",
+      "team": "Cleveland Browns",
+      "voting": "Voting"
+  }
+]

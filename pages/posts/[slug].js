@@ -1,10 +1,9 @@
 import { useMemo } from 'react';
 import { getMDXComponent } from 'mdx-bundler/client';
 import Link from 'next/link';
-import path from 'path';
 import Layout from 'components/Layout/Layout';
 import styles from 'styles/post.module.css';
-import { postFilePaths, POSTS_PATH, prepareMdx } from '../../utils/mdxUtils';
+import { postFilePaths, prepareMdx } from '../../utils/mdxUtils';
 
 export default function PostPage({ code, frontmatter }) {
   const Component = useMemo(() => getMDXComponent(code), [code]);
@@ -32,7 +31,7 @@ export default function PostPage({ code, frontmatter }) {
 }
 
 export const getStaticProps = async ({ params }) => {
-  const { code, frontmatter } = await prepareMdx(path.join(POSTS_PATH, `${params.slug}.mdx`));
+  const { code, frontmatter } = await prepareMdx(`${params.slug}.mdx`);
   return {
     props: {
       code,
