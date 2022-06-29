@@ -29,7 +29,7 @@ async function getPlayerPassingStats(browser, { year }) {
 (async () => {
   const browser = await p.launch();
   file.write('{');
-  for (let year = 1989; year <= 2021; year += 1) {
+  for (let year = 1957; year <= 2021; year += 1) {
     // eslint-disable-next-line no-await-in-loop
     await getPlayerPassingStats(browser, { year });
   }

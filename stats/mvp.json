@@ -160,14 +160,6 @@
       "voting": "Voting"
   },
   {
-      "year_id": "Year",
-      "league_id": "Lg",
-      "pos": "Pos",
-      "player": "Player",
-      "team": "Tm",
-      "voting": "Voting"
-  },
-  {
       "year_id": "2002",
       "league_id": "NFL",
       "pos": "QB",
