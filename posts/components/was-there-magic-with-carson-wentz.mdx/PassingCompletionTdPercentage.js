@@ -25,7 +25,7 @@ export default function PassingCompletionTdPercentage() {
 
   useEffect(() => {
     if (isMobile === undefined) return;
-    const margin = { bottom: 30, left: 20, right: 10, top: 10 };
+    const margin = { bottom: 40, left: 40, right: 10, top: 10 };
     const height = svgHeight - margin.top - margin.bottom;
     const width = svgWidth - margin.left - margin.right;
 
@@ -49,6 +49,22 @@ export default function PassingCompletionTdPercentage() {
       .append('g')
       .attr('class', 'x axis')
       .attr('transform', `translate(0, ${height})`);
+    /** y-axis label */
+    chartGroup
+      .append('text')
+      .attr('transform', 'rotate(-90)')
+      .attr('x', -height / 2)
+      .attr('y', -margin.left)
+      .attr('dy', 12)
+      .style('text-anchor', 'middle')
+      .text('Rank of touchdowns per pass attempt');
+    /** x-axis label */
+    chartGroup
+      .append('text')
+      .attr('transform', `translate(${width / 2}, ${height + margin.top})`)
+      .attr('dy', 25)
+      .style('text-anchor', 'middle')
+      .text('Rank of completion percentage');
 
     const yAxis = d3
       .axisLeft()
