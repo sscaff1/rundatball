@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nflvisuals.com
+
+# Sitemaps
+Sitemap: https://nflvisuals.com/sitemap.xml

@@ -1,3 +1,7 @@
+.imgWrap {
+  position: absolute;
+}
+
 .root {
   padding: 10px 20px;
 }
@@ -7,7 +11,7 @@
   border-radius: 5px;
   margin-bottom: 20px;
   text-decoration: none;
-  color: #333;  
+  color: #333;
   display: block;
   transition: transform 200ms;
   transform: scale(1);
@@ -24,11 +28,14 @@
 .article > div:first-child {
   height: 100%;
   width: 120px;
-  background-color: gray;
 }
 
-.article > div:last-child {
+.article .root {
   flex: 1;
+}
+
+.root.withImg {
+  padding-left: 130px;
 }
 
 .title {
@@ -36,11 +43,9 @@
   font-family: BioRhyme;
   margin-bottom: 8px;
 }
-
 .date {
   font-style: italic;
   font-size: 12px;
   display: block;
   margin-bottom: 4px;
 }
-

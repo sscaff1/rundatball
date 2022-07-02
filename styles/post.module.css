@@ -22,3 +22,9 @@
   max-width: 600px;
   margin: 0 auto;
 }
+
+.imgWrap {
+  height: 150px;
+  width: 100%;
+  position: relative;
+}

@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { getMDXComponent } from 'mdx-bundler/client';
 import Link from 'next/link';
+import Image from 'next/image';
 import Layout from 'components/Layout/Layout';
 import styles from 'styles/post.module.css';
 import { postFilePaths, prepareMdx } from '../../utils/mdxUtils';
@@ -21,6 +22,16 @@ export default function PostPage({ code, frontmatter }) {
         <div className={styles.title}>
           <h2>{frontmatter.title}</h2>
           {frontmatter.description && <p className="description">{frontmatter.description}</p>}
+          {frontmatter.img && (
+            <div className={styles.imgWrap}>
+              <Image
+                src={frontmatter.imgDetails}
+                layout="fill"
+                objectFit="cover"
+                alt="Carson Wentz not magic"
+              />
+            </div>
+          )}
         </div>
         <main className={styles.body}>
           <Component />

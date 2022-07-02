@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next-remote-watch ./posts",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "eslint . --fix"
   },
@@ -25,6 +26,7 @@
     "@nolajs/eslint-config": "^2.1.1",
     "esbuild": "^0.14.47",
     "eslint-config-next": "^12.1.6",
+    "next-sitemap": "^3.1.7",
     "puppeteer": "^14.4.1"
   }
 }

@@ -1,7 +1,9 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import cn from 'classnames';
 import styles from './Post.module.css';
 
-const Post = ({ date, slug, summary, title }) => (
+const Post = ({ date, img, slug, summary, title }) => (
   <Link
     href={{
       pathname: '/posts/[slug]',
@@ -10,9 +12,12 @@ const Post = ({ date, slug, summary, title }) => (
   >
     <a className={styles.wrap}>
       <article className={styles.article}>
-        <div />
-        {/* <Image src="http://placehold.jp/150x150.png" layout="fill" /> */}
-        <div className={styles.root}>
+        {img ? (
+          <div className={styles.imgWrap}>
+            <Image src={img} layout="fill" alt="Carson Wentz Eagles" objectFit="cover" />
+          </div>
+        ) : null}
+        <div className={cn(styles.root, { [styles.withImg]: !!img })}>
           <p className={styles.title}>{title}</p>
           <small className={styles.date}>{date}</small>
           <p className={styles.description}>{summary}</p>
