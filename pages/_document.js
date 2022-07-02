@@ -1,7 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document';
 
 // SEO stuff
-const keywords = 'nfl charts, nfl visual data, nfl visualize data, nfl visual data blog';
 const logoImg = 'https://www.nflvisuals.com/logo.svg';
 const siteName = 'NFL Visuals';
 
@@ -29,7 +28,6 @@ export default function Document() {
           href="/rss.xml"
         />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="keywords" content={keywords} />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="twitter:creator" content="@Steven_Scaffidi" />

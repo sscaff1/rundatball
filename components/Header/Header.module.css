@@ -14,12 +14,10 @@
 }
 
 .header p {
-  font-family: 'Splash', cursive;
+  font-family: 'BioRhyme', serif;
   font-size: 32px;
   margin-left: 10px;
   line-height: 75px;
-  top: 4px;
-  position: relative;
 }
 
 .root {

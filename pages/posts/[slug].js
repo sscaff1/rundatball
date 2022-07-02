@@ -20,7 +20,8 @@ export default function PostPage({ code, frontmatter }) {
           </nav>
         </header>
         <div className={styles.title}>
-          <h2>{frontmatter.title}</h2>
+          <h1>{frontmatter.title}</h1>
+          <p>Published {frontmatter.date}</p>
           {frontmatter.description && <p className="description">{frontmatter.description}</p>}
           {frontmatter.img && (
             <div className={styles.imgWrap}>
