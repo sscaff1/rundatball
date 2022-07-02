@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Header.module.css';
 
 const Header = () => (
@@ -6,7 +7,8 @@ const Header = () => (
     <header className={styles.header}>
       <Link href="/">
         <a>
-          <h1>NFL Visuals</h1>
+          <Image height={75} width={75} src="/logo.svg" alt="NFL Visuals logo" />
+          <p>NFL Visuals</p>
         </a>
       </Link>
     </header>

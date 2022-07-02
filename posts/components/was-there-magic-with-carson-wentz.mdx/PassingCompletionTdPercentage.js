@@ -295,7 +295,7 @@ export default function PassingCompletionTdPercentage() {
         .info {
           position: absolute;
           background: #fafafa;
-          overflow-y: scroll;
+          overflow-y: auto;
           padding: 5px;
           font-size: 12px;
         }
@@ -305,7 +305,7 @@ export default function PassingCompletionTdPercentage() {
           .info {
             position: relative;
             background: #fafafa;
-            overflow-y: scroll;
+            overflow-y: auto;
             padding: 5px;
             font-size: 12px;
           }
