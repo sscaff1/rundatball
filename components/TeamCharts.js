@@ -11,11 +11,26 @@ const optionStats = [
   { label: 'Pass attempts', stat: 'pass_att' },
   { label: 'Pass TDs', stat: 'pass_td' },
   { label: 'Rush yards', stat: 'rush_yds' },
-  { label: 'Rush yards / attempt', stat: 'rush_yds_per_att' },
+  { label: 'Rush yards per attempt', stat: 'rush_yds_per_att' },
   { label: 'Rush TDs', stat: 'rush_td' },
   { label: 'First downs', stat: 'first_down' },
   { label: 'Fumbles lost', stat: 'fumbles_lost' },
   { label: 'Penalties', stat: 'penalties' },
+  { label: 'Points', stat: 'points' },
+  { label: 'Total yards', stat: 'total_yards' },
+  { label: 'Offensive plays', stat: 'plays_offense' },
+  { label: 'Yards per play', stat: 'yds_per_play_offense' },
+  { label: 'Turnovers', stat: 'turnovers' },
+  { label: 'Fumbles lost', stat: 'fumbles_lost' },
+  { label: 'First downs', stat: 'first_down' },
+  { label: 'Net yards per attempt', stat: 'pass_net_yds_per_att' },
+  { label: 'Passing first downs', stat: 'pass_fd' },
+  { label: 'Rushing attempts', stat: 'rush_att' },
+  { label: 'Rushing first downs', stat: 'rush_fd' },
+  { label: 'Penalty yards', stat: 'penalties_yds' },
+  { label: 'Penalty first downs', stat: 'pen_fd' },
+  { label: 'Percent of drives ending in a TD', stat: 'score_pct' },
+  { label: 'Percent of drives ending in a turnover', stat: 'turnover_pct' },
 ];
 
 const years = [
@@ -177,26 +192,65 @@ const TeamCharts = () => {
   }, [svgHeight, svgWidth]);
   return (
     <div>
-      <select name="year" id="yearSelect">
-        {years.map((year) => (
-          <option key={`option-${year}`} value={year}>
-            {year}
-          </option>
-        ))}
-      </select>
-      <select name="stat" id="statSelect">
-        {optionStats.map((stat) => (
-          <option key={`option-${stat.stat}`} value={stat.stat}>
-            {stat.label}
-          </option>
-        ))}
-      </select>
       <div>
         <div className="teamChartTitle" />
+        <small>
+          Conference place finish is next to the team name. Whether or not they made the play-offs
+          is indicated with the {`"Playoffs"`} text
+        </small>
+        <div className="selectControls">
+          <label htmlFor="yearSelect">
+            <p>Select a year</p>
+            <select name="year" id="yearSelect">
+              {years.map((year) => (
+                <option key={`option-${year}`} value={year}>
+                  {year}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label htmlFor="statSelect">
+            <p>Select a stat</p>
+            <select name="stat" id="statSelect">
+              {optionStats.map((stat) => (
+                <option key={`option-${stat.stat}`} value={stat.stat}>
+                  {stat.label}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
         <svg preserveAspectRatio="xMinYMin meet" viewBox={`0 0 ${svgWidth} ${svgHeight}`}>
           <svg ref={svgRef} />
         </svg>
       </div>
+      <style jsx>{`
+        select {
+          padding: 8px 4px 8px 2px;
+          min-width: 100px;
+        }
+        .selectControls {
+          display: flex;
+          align-items: center;
+          margin: 20px 0;
+        }
+        .selectControls > label:first-child {
+          margin-right: 20px;
+        }
+        .selectControls p {
+          margin-bottom: 5px;
+        }
+        @media only screen and (max-width: 600px) {
+          .selectControls {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .selectControls > label:first-child {
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+        }
+      `}</style>
     </div>
   );
 };
