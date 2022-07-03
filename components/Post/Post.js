@@ -3,7 +3,7 @@ import Image from 'next/image';
 import cn from 'classnames';
 import styles from './Post.module.css';
 
-const Post = ({ date, img, slug, summary, title }) => (
+const Post = ({ date, description, img, slug, title }) => (
   <Link
     href={{
       pathname: '/posts/[slug]',
@@ -20,7 +20,7 @@ const Post = ({ date, img, slug, summary, title }) => (
         <div className={cn(styles.root, { [styles.withImg]: !!img })}>
           <p className={styles.title}>{title}</p>
           <small className={styles.date}>{date}</small>
-          <p className={styles.description}>{summary}</p>
+          <p className={styles.description}>{description}</p>
         </div>
       </article>
     </a>

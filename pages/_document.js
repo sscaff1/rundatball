@@ -1,8 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-
-// SEO stuff
-const logoImg = 'https://www.nflvisuals.com/logo.svg';
-const siteName = 'NFL Visuals';
+import Script from 'next/script';
 
 export default function Document() {
   return (
@@ -15,53 +12,42 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Cabin&family=Splash&display=swap"
           rel="stylesheet"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        {/* SEO stuff */}
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link
+        {/* <link
           rel="alternate"
           type="application/rss+xml"
-          title="Dan Abramov's Overreacted Blog RSS Feed"
+          title="NFL Visuals Blog RSS Feed"
           href="/rss.xml"
-        />
+        /> */}
+        <meta charset="utf-8" />
         <meta name="theme-color" content="#ffffff" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="twitter:creator" content="@Steven_Scaffidi" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
-            {
-              "@context": "http://schema.org",
-              "@type": "Organization",
-              "name": "${siteName}",
-              "url": "https://www.nolahire.com/",
-              "logo": "${logoImg}"
-            }
-        `,
-          }}
-        />
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RC9NFWKD7" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-1RC9NFWKD7');
-              `,
-          }}
-        />
       </Head>
       <body>
         <Main />
         <NextScript />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PRMRS7BX38" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-PRMRS7BX38');
+        `}
+        </Script>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4778356606512971"
+          crossorigin="anonymous"
+        />
       </body>
     </Html>
   );

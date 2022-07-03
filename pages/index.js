@@ -4,15 +4,26 @@ import Post from 'components/Post/Post';
 import styles from 'styles/posts.module.css';
 import { prepareMdx, postFilePaths } from '../utils/mdxUtils';
 
+const title = 'NFL Visuals - Visualize NFL data';
+const description =
+  'NFL data visuals, interactive charts, and blogs with NFL content you cannot find anywhere else.';
+const url = 'https://www.nflvisuals.com';
+
 export default function Index({ posts }) {
   return (
     <>
       <Head>
-        <title>NFL Visuals - Visualize NFL data</title>
+        <title>{title}</title>
         <meta
           name="keywords"
           content="nfl charts, nfl visual data, nfl visualize data, nfl visual data blog"
         />
+        <link rel="canonical" href={url} />
+        <meta property="og:image" content="https://www.nflvisuals.com/logo.png" />
+        <meta property="og:description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:url" content={url} />
+        <meta name="description" content={description} />
       </Head>
       <Layout>
         <div className={styles.root}>
@@ -21,7 +32,7 @@ export default function Index({ posts }) {
               key={post.filePath}
               slug={post.filePath.replace(/\.mdx?$/, '')}
               title={post.data.title}
-              summary={post.data.summary}
+              description={post.data.description}
               date={post.data.date}
               img={post.data.img}
             />
