@@ -2,15 +2,22 @@ import Head from 'next/head';
 import Layout from 'components/Layout/Layout';
 import styles from 'styles/charts.module.css';
 
+const title = 'Player charts coming soon - NFL Visuals';
+const description = 'nfl player stat charts, nfl visuals player charts';
+const url = 'https://www.nflvisuals.com/player-charts';
+
 export default function PlayerChartsPage() {
   return (
     <>
       <Head>
-        <title>Team Charts - NFL Visuals</title>
-        <meta
-          name="keywords"
-          content="nfl team statistic charts, nfl regular season stats, nfl team graphs, nfl team charts"
-        />
+        <title>{title}</title>
+        <meta name="keywords" content="nfl team stat charts, nfl visuals team charts" />
+        <link rel="canonical" href={url} />
+        <meta property="og:image" content="https://www.nflvisuals.com/logo.png" />
+        <meta property="og:description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:url" content={url} />
+        <meta name="description" content={description} />
       </Head>
       <Layout>
         <div className={styles.coming}>
