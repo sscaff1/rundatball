@@ -33,21 +33,6 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PRMRS7BX38" />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-PRMRS7BX38');
-        `}
-        </Script>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4778356606512971"
-          crossorigin="anonymous"
-        />
       </body>
     </Html>
   );
