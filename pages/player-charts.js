@@ -3,7 +3,8 @@ import Layout from 'components/Layout/Layout';
 import styles from 'styles/charts.module.css';
 
 const title = 'Player charts coming soon - NFL Visuals';
-const description = 'nfl player stat charts, nfl visuals player charts';
+const description =
+  'Coming soon. NFL player stats in charts. Visually see individual player statistics.';
 const url = 'https://www.nflvisuals.com/player-charts';
 
 export default function PlayerChartsPage() {
