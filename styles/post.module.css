@@ -2,6 +2,10 @@
   line-height: 1.5;
 }
 
+.title h1 {
+  margin-bottom: 15px;
+}
+
 .body h3 {
   margin: 16px 0;
 }
@@ -28,7 +32,7 @@
 }
 
 .imgWrap {
-  height: 150px;
+  height: 250px;
   width: 100%;
   position: relative;
 }

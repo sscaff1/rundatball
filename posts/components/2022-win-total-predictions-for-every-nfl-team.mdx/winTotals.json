@@ -1,0 +1,279 @@
+[
+  {
+      "team": "Tampa Bay Buccaneers",
+      "winTotal": "11.5",
+      "overPrice": "Over 11.5 (+110)",
+      "underPrice": "Under 11.5 (-130)",
+      "prediction": "Under",
+      "confidence": "1",
+      "summary": "I don't bet against the GOAT; however, there is a lot of uncertainty with this team. I do think they win the weak NFC South though."
+  },
+  {
+      "team": "Buffalo Bills",
+      "winTotal": "11.5",
+      "overPrice": "Over 11.5 (-140)",
+      "underPrice": "Under 11.5 (+120)",
+      "prediction": "Over",
+      "confidence": "5",
+      "summary": "I think Buffalo was the best team last year and will be the best team this year. This year is Josh Allen's opportunity to show the world that he is the best young quarterback."
+  },
+  {
+      "team": "Green Bay Packers",
+      "winTotal": "11",
+      "overPrice": "Over 11 (-110)",
+      "underPrice": "Under 11 (-110)",
+      "prediction": "Over",
+      "confidence": "2",
+      "summary": "Much like Brady, I don't bet against Aaron Rodgers. Green Bay has a long road ahead without Devante Adams. Adams accounted for over a 3rd of the teams passing yards last year."
+  },
+  {
+      "team": "Kansas City Chiefs",
+      "winTotal": "10.5",
+      "overPrice": "Over 10.5 (-120)",
+      "underPrice": "Under 10.5 (+100)",
+      "prediction": "Over",
+      "confidence": "5",
+      "summary": "Mahomes is incredible. I think he continues to be incredible. I think they improve on defense and easily eclipse 11 wins."
+  },
+  {
+      "team": "LA Rams",
+      "winTotal": "10.5",
+      "overPrice": "Over 10.5 (+105)",
+      "underPrice": "Under 10.5 (-125)",
+      "prediction": "Under",
+      "confidence": "3",
+      "summary": "I know the Rams just won the Superbowl, but I have very little confidence in this team. To be honest, I really think Brady should have won that divisional round matchup. I expect them to be under their 10.5 over/under."
+  },
+  {
+      "team": "Dallas Cowboys",
+      "winTotal": "10",
+      "overPrice": "Over 10 (-110)",
+      "underPrice": "Under 10 (-110)",
+      "prediction": "Under",
+      "confidence": "4",
+      "summary": "Prediction: Cowboys cap off another disappointing season. Eagles win the NFC East. Mike McCarthy gets fired. Sean Payton is coaching the Cowboys in 2023."
+  },
+  {
+      "team": "San Francisco 49ers",
+      "winTotal": "10",
+      "overPrice": "Over 10 (-110)",
+      "underPrice": "Under 10 (-110)",
+      "prediction": "Under",
+      "confidence": "2",
+      "summary": "The reason I'm predicting the 49ers to go under is because of their indecisiveness at the QB position. This team does have great skilled players, but I just can't see them getting over 10 wins."
+  },
+  {
+      "team": "LA Chargers",
+      "winTotal": "10",
+      "overPrice": "Over 10 (-140)",
+      "underPrice": "Under 10 (+120)",
+      "prediction": "Under",
+      "confidence": "3",
+      "summary": "I think the Chargers take a step back this year. I think Herbert is about on par with where he was last year."
+  },
+  {
+      "team": "Cincinnati Bengals",
+      "winTotal": "10",
+      "overPrice": "Over 10 (+100)",
+      "underPrice": "Under 10 (-120)",
+      "prediction": "Over",
+      "confidence": "4",
+      "summary": "I think the Bengals got better over the off season. At the end of this season, Joe Burrow is going to be getting even more comparisons to the Allen and Mahomes."
+  },
+  {
+      "team": "Denver Broncos",
+      "winTotal": "10",
+      "overPrice": "Over 10 (-110)",
+      "underPrice": "Under 10 (-110)",
+      "prediction": "Over",
+      "confidence": "4",
+      "summary": "If the Broncos were playing in the NFC, I would say they are the favorites to win it. Wilson is a huge step up for this team, and I think they have the pieces in place to make a run. The one thing that sucks for them is that they are playing in the best division in football."
+  },
+  {
+      "team": "Indianapolis Colts",
+      "winTotal": "10",
+      "overPrice": "Over 10 (-105)",
+      "underPrice": "Under 10 (-115)",
+      "prediction": "Over",
+      "confidence": "5",
+      "summary": "Matt Ryan is a huge step in the right direction. Colts take this division and easily surpass 10 wins. Colts are my dark horse team to take the AFC crown."
+  },
+  {
+      "team": "Baltimore Ravens",
+      "winTotal": "9.5",
+      "overPrice": "Over 9.5 (-160)",
+      "underPrice": "Under 9.5 (+130)",
+      "prediction": "Over",
+      "confidence": "5",
+      "summary": "I had to do a double take to make sure this over/under was correct. Ravens easily win 10 or more games."
+  },
+  {
+      "team": "Philadelphia Eagles",
+      "winTotal": "9.5",
+      "overPrice": "Over 9.5 (-150)",
+      "underPrice": "Under 9.5 (+125)",
+      "prediction": "Over",
+      "confidence": "1",
+      "summary": "I think this team is ready to win and under-rated. I think they win the NFC East."
+  },
+  {
+      "team": "Tennessee Titans",
+      "winTotal": "9",
+      "overPrice": "Over 9 (-105)",
+      "underPrice": "Under 9 (-115)",
+      "prediction": "Under",
+      "confidence": "3",
+      "summary": "I think the Titans take one of the biggest steps backwards. I don't think they've made any meaningful improvements, and I don't think they enjoy the same season success they did last year."
+  },
+  {
+      "team": "Miami Dolphins",
+      "winTotal": "9",
+      "overPrice": "Over 9 (+110)",
+      "underPrice": "Under 9 (-120)",
+      "prediction": "Over",
+      "confidence": "4",
+      "summary": "They are making investments in all the right places. I think this team is easily over 9 wins. I see Tua taking a huge leap forward and their investment in Hill paying off."
+  },
+  {
+      "team": "Minnesota Vikings",
+      "winTotal": "9",
+      "overPrice": "Over 9 (-130)",
+      "underPrice": "Under 9 (+110)",
+      "prediction": "Over",
+      "confidence": "1",
+      "summary": "The perennial team that does kind of well in the season only to fail in the playoffs. This team ends up with 10 wins and struggles in the wild card matchup."
+  },
+  {
+      "team": "Arizona Cardinals",
+      "winTotal": "8.5",
+      "overPrice": "Over 8.5 (-110)",
+      "underPrice": "Under 8.5 (-110)",
+      "prediction": "Over",
+      "confidence": "3",
+      "summary": "Another line that was a little surprised to see. The Cardinals get at least 9 wins and have a chance to take the NFC West."
+  },
+  {
+      "team": "Las Vegas Raiders",
+      "winTotal": "8.5",
+      "overPrice": "Over 8.5 (-130)",
+      "underPrice": "Under 8.5 (+110)",
+      "prediction": "Over",
+      "confidence": "4",
+      "summary": "How is the AFC West so good? The only reason the line is at 8.5 is because of the division they play in. Adams plays a huge role in the Raiders success."
+  },
+  {
+      "team": "New England Patriots",
+      "winTotal": "8.5",
+      "overPrice": "Over 8.5 (-120)",
+      "underPrice": "Under 8.5 (+100)",
+      "prediction": "Under",
+      "confidence": "2",
+      "summary": "At some point Belicheck has to admit that the NFL is changing, and he doesn't have the GOAT under center. I think this is the year it starts to turn around for Bill."
+  },
+  {
+      "team": "Cleveland Browns",
+      "winTotal": "8.5",
+      "overPrice": "Over 8.5 (+110)",
+      "underPrice": "Under 8.5 (-140)",
+      "prediction": "Over",
+      "confidence": "3",
+      "summary": "Despite the drama with Watson, this team has all the right pieces in place. Despite the QB position, I still think they go over their 8.5 mark."
+  },
+  {
+      "team": "New Orleans Saints",
+      "winTotal": "8.5",
+      "overPrice": "Over 8.5 (-105)",
+      "underPrice": "Under 8.5 (-115)",
+      "prediction": "Over",
+      "confidence": "4",
+      "summary": "I only have two concerns about this team going over 8.5 wins. One their schedule is very hard. And two, the Gardner-Johnson trade. Last season, with Gardner-Johnson the Saints went 9-3 and only gave up 15.6 points per game. Without him, they were 0-5 and nearly gave up 30 points per game. Overall though, I feel like this team is better than 8.5 wins and that's why I'm confident in this bet."
+  },
+  {
+      "team": "Washington Commanders",
+      "winTotal": "8",
+      "overPrice": "Over 8 (+100)",
+      "underPrice": "Under 8 (-120)",
+      "prediction": "Under",
+      "confidence": "2",
+      "summary": "Antonio Gibson isn't Jonathan Taylor. Wentz is going to find it hard to throw without that stellar run game. If this were any other organization, I'd be betting the over, but this is the Washington Commanders. They have the talent. Hopefully the disfunction of the organization doesn't kill them."
+  },
+  {
+      "team": "Pittsburgh Steelers",
+      "winTotal": "7.5",
+      "overPrice": "Over 7.5 (+100)",
+      "underPrice": "Under 7.5 (-120)",
+      "prediction": "Under",
+      "confidence": "4"
+  },
+  {
+      "team": "New York Giants",
+      "winTotal": "7",
+      "overPrice": "Over 7 (-110)",
+      "underPrice": "Under 7 (-110)",
+      "prediction": "Under",
+      "confidence": "3",
+      "summary": "Giants had a league high 30 turnovers in 2020. They continue that trend and end another miserable season in the NFC East. Their only chance is that they play in one of the worst divisions in football."
+  },
+  {
+      "team": "Chicago Bears",
+      "winTotal": "6.5",
+      "overPrice": "Over 6.5 (+150)",
+      "underPrice": "Under 6.5 (-190)",
+      "prediction": "Over",
+      "confidence": "1"
+  },
+  {
+      "team": "Jacksonville Jaguars",
+      "winTotal": "6.5",
+      "overPrice": "Over 6.5 (+110)",
+      "underPrice": "Under 6.5 (-130)",
+      "prediction": "Over",
+      "confidence": "2"
+  },
+  {
+      "team": "Detroit Lions",
+      "winTotal": "6.5",
+      "overPrice": "Over 6.5 (-125)",
+      "underPrice": "Under 6.5 (+105)",
+      "prediction": "Over",
+      "confidence": "3"
+  },
+  {
+      "team": "Carolina Panthers",
+      "winTotal": "6.5",
+      "overPrice": "Over 6.5 (-110)",
+      "underPrice": "Under 6.5 (-110)",
+      "prediction": "Over",
+      "confidence": "3"
+  },
+  {
+      "team": "Seattle Seahawks",
+      "winTotal": "5.5",
+      "overPrice": "Over 5.5 (-125)",
+      "underPrice": "Under 5.5 (+105)",
+      "prediction": "Under",
+      "confidence": "4"
+  },
+  {
+      "team": "New York Jets",
+      "winTotal": "5.5",
+      "overPrice": "Over 5.5 (-160)",
+      "underPrice": "Under 5.5 (+130)",
+      "prediction": "Under",
+      "confidence": "4"
+  },
+  {
+      "team": "Atlanta Falcons",
+      "winTotal": "5",
+      "overPrice": "Over 5 (+125)",
+      "underPrice": "Under 5 (-145)",
+      "prediction": "Under",
+      "confidence": "5"
+  },
+  {
+      "team": "Houston Texans",
+      "winTotal": "4.5",
+      "overPrice": "Over 4.5 (+100)",
+      "underPrice": "Under 4.5 (-120)"
+  }
+]
