@@ -1,0 +1,1780 @@
+[
+  {
+    "stadium_name": "Allegiant Stadium",
+    "year_min": "2020",
+    "year_max": "2022",
+    "g": "18",
+    "city": "Las Vegas",
+    "state": "NV",
+    "teams": "Las Vegas Raiders",
+    "type": "closed"
+  },
+  {
+    "stadium_name": "AT&T Stadium",
+    "year_min": "2009",
+    "year_max": "2022",
+    "g": "110",
+    "city": "Arlington",
+    "state": "TX",
+    "teams": "Dallas Cowboys",
+    "type": "retractable"
+  },
+  {
+    "stadium_name": "Bank of America Stadium",
+    "year_min": "1996",
+    "year_max": "2022",
+    "g": "215",
+    "city": "Charlotte",
+    "state": "NC",
+    "teams": "Carolina Panthers",
+    "type": "open"
+  },
+  {
+    "stadium_name": "Caesars Superdome",
+    "year_min": "1975",
+    "year_max": "2022",
+    "g": "380",
+    "city": "New Orleans",
+    "state": "LA",
+    "teams": "New Orleans Saints",
+    "type": "closed"
+  },
+  {
+    "stadium_name": "CenturyLink Field",
+    "year_min": "2002",
+    "year_max": "2022",
+    "g": "172",
+    "city": "Seattle",
+    "state": "WA",
+    "teams": "Seattle Seahawks",
+    "type": "open"
+  },
+  {
+    "stadium_name": "EverBank Field",
+    "year_min": "1995",
+    "year_max": "2022",
+    "g": "215",
+    "city": "Jacksonville",
+    "state": "FL",
+    "teams": "Jacksonville Jaguars"
+  },
+  {
+    "stadium_name": "FedExField",
+    "year_min": "1997",
+    "year_max": "2022",
+    "g": "204",
+    "city": "Landover",
+    "state": "MD",
+    "teams": "Washington Redskins"
+  },
+  {
+    "stadium_name": "FirstEnergy Stadium",
+    "year_min": "1999",
+    "year_max": "2022",
+    "g": "184",
+    "city": "Cleveland",
+    "state": "OH",
+    "teams": "Cleveland Browns"
+  },
+  {
+    "stadium_name": "Ford Field",
+    "year_min": "2002",
+    "year_max": "2022",
+    "g": "163",
+    "city": "Detroit",
+    "state": "MI",
+    "teams": "Detroit Lions"
+  },
+  {
+    "stadium_name": "GEHA Field at Arrowhead Stadium",
+    "year_min": "1972",
+    "year_max": "2022",
+    "g": "406",
+    "city": "Kansas City",
+    "state": "MO",
+    "teams": "Kansas City Chiefs"
+  },
+  {
+    "stadium_name": "Gillette Stadium",
+    "year_min": "2002",
+    "year_max": "2022",
+    "g": "184",
+    "city": "Foxborough",
+    "state": "MA",
+    "teams": "New England Patriots"
+  },
+  {
+    "stadium_name": "Hard Rock Stadium",
+    "year_min": "1987",
+    "year_max": "2022",
+    "g": "291",
+    "city": "Miami Gardens",
+    "state": "FL",
+    "teams": "Miami Dolphins"
+  },
+  {
+    "stadium_name": "Heinz Field",
+    "year_min": "2001",
+    "year_max": "2022",
+    "g": "183",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "teams": "Pittsburgh Steelers"
+  },
+  {
+    "stadium_name": "Highmark Stadium",
+    "year_min": "1973",
+    "year_max": "2022",
+    "g": "391",
+    "city": "Orchard Park",
+    "state": "NY",
+    "teams": "Buffalo Bills"
+  },
+  {
+    "stadium_name": "Lambeau Field",
+    "year_min": "1957",
+    "year_max": "2022",
+    "g": "403",
+    "city": "Green Bay",
+    "state": "WI",
+    "teams": "Green Bay Packers"
+  },
+  {
+    "stadium_name": "Levi's Stadium",
+    "year_min": "2014",
+    "year_max": "2022",
+    "g": "64",
+    "city": "Santa Clara",
+    "state": "CA",
+    "teams": "San Francisco 49ers"
+  },
+  {
+    "stadium_name": "Lincoln Financial Field",
+    "year_min": "2003",
+    "year_max": "2022",
+    "g": "162",
+    "city": "Philadelphia",
+    "state": "PA",
+    "teams": "Philadelphia Eagles"
+  },
+  {
+    "stadium_name": "Lucas Oil Stadium",
+    "year_min": "2008",
+    "year_max": "2022",
+    "g": "119",
+    "city": "Indianapolis",
+    "state": "IN",
+    "teams": "Indianapolis Colts"
+  },
+  {
+    "stadium_name": "M&T Bank Stadium",
+    "year_min": "1998",
+    "year_max": "2022",
+    "g": "200",
+    "city": "Baltimore",
+    "state": "MD",
+    "teams": "Baltimore Ravens"
+  },
+  {
+    "stadium_name": "Mercedes-Benz Stadium",
+    "year_min": "2017",
+    "year_max": "2022",
+    "g": "40",
+    "city": "Atlanta",
+    "state": "GA",
+    "teams": "Atlanta Falcons"
+  },
+  {
+    "stadium_name": "MetLife Stadium",
+    "year_min": "2010",
+    "year_max": "2022",
+    "g": "195",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "teams": "New York Giants, New York Jets"
+  },
+  {
+    "stadium_name": "Nissan Stadium",
+    "year_min": "1999",
+    "year_max": "2022",
+    "g": "191",
+    "city": "Nashville",
+    "state": "TN",
+    "teams": "Tennessee Titans"
+  },
+  {
+    "stadium_name": "NRG Stadium",
+    "year_min": "2002",
+    "year_max": "2022",
+    "g": "169",
+    "city": "Houston",
+    "state": "TX",
+    "teams": "Houston Texans"
+  },
+  {
+    "stadium_name": "Paul Brown Stadium",
+    "year_min": "2000",
+    "year_max": "2022",
+    "g": "181",
+    "city": "Cincinnati",
+    "state": "OH",
+    "teams": "Cincinnati Bengals"
+  },
+  {
+    "stadium_name": "Raymond James Stadium",
+    "year_min": "1998",
+    "year_max": "2022",
+    "g": "198",
+    "city": "Tampa",
+    "state": "FL",
+    "teams": "Tampa Bay Buccaneers"
+  },
+  {
+    "stadium_name": "Stadium Name",
+    "year_min": "From",
+    "year_max": "To",
+    "g": "G",
+    "city": "City",
+    "state": "State",
+    "teams": "Primary Team(s)"
+  },
+  {
+    "stadium_name": "SoFi Stadium",
+    "year_min": "2020",
+    "year_max": "2022",
+    "g": "36",
+    "city": "Inglewood",
+    "state": "CA",
+    "teams": "Los Angeles Rams, Los Angeles Chargers"
+  },
+  {
+    "stadium_name": "Soldier Field",
+    "year_min": "1926",
+    "year_max": "2022",
+    "g": "444",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": "Chicago Rockets, Chicago Cardinals, Chicago Bears"
+  },
+  {
+    "stadium_name": "Sports Authority Field at Mile High",
+    "year_min": "2001",
+    "year_max": "2022",
+    "g": "178",
+    "city": "Denver",
+    "state": "CO",
+    "teams": "Denver Broncos"
+  },
+  {
+    "stadium_name": "U.S. Bank Stadium",
+    "year_min": "2016",
+    "year_max": "2022",
+    "g": "50",
+    "city": "Minneapolis",
+    "state": "MN",
+    "teams": "Minnesota Vikings"
+  },
+  {
+    "stadium_name": "University of Phoenix Stadium",
+    "year_min": "2006",
+    "year_max": "2022",
+    "g": "137",
+    "city": "Glendale",
+    "state": "AZ",
+    "teams": "Arizona Cardinals"
+  },
+  {
+    "stadium_name": "Tottenham Stadium",
+    "year_min": "2019",
+    "year_max": "2021",
+    "g": "4",
+    "city": "London",
+    "state": "UK",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Azteca Stadium",
+    "year_min": "2005",
+    "year_max": "2019",
+    "g": "4",
+    "city": "Mexico City",
+    "state": "MX",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Los Angeles Memorial Coliseum",
+    "year_min": "1946",
+    "year_max": "2019",
+    "g": "409",
+    "city": "Los Angeles",
+    "state": "CA",
+    "teams": "Los Angeles Dons, Los Angeles Rams, Los Angeles Chargers, Los Angeles Raiders"
+  },
+  {
+    "stadium_name": "Oakland Coliseum",
+    "year_min": "1966",
+    "year_max": "2019",
+    "g": "327",
+    "city": "Oakland",
+    "state": "CA",
+    "teams": "Oakland Raiders"
+  },
+  {
+    "stadium_name": "StubHub Center",
+    "year_min": "2017",
+    "year_max": "2019",
+    "g": "22",
+    "city": "Carson",
+    "state": "CA",
+    "teams": "Los Angeles Chargers"
+  },
+  {
+    "stadium_name": "Wembley Stadium",
+    "year_min": "2007",
+    "year_max": "2019",
+    "g": "23",
+    "city": "London",
+    "state": "UK",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Twickenham Stadium",
+    "year_min": "2016",
+    "year_max": "2017",
+    "g": "3",
+    "city": "Twickenham",
+    "state": "UK",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Georgia Dome",
+    "year_min": "1992",
+    "year_max": "2016",
+    "g": "208",
+    "city": "Atlanta",
+    "state": "GA",
+    "teams": "Atlanta Falcons"
+  },
+  {
+    "stadium_name": "Qualcomm Stadium",
+    "year_min": "1967",
+    "year_max": "2016",
+    "g": "398",
+    "city": "San Diego",
+    "state": "CA",
+    "teams": "San Diego Chargers"
+  },
+  {
+    "stadium_name": "Edward Jones Dome",
+    "year_min": "1995",
+    "year_max": "2015",
+    "g": "168",
+    "city": "St. Louis",
+    "state": "MO",
+    "teams": "St. Louis Rams"
+  },
+  {
+    "stadium_name": "TCF Bank Stadium",
+    "year_min": "2010",
+    "year_max": "2015",
+    "g": "18",
+    "city": "Minneapolis",
+    "state": "MN",
+    "teams": "Minnesota Vikings"
+  },
+  {
+    "stadium_name": "Candlestick Park",
+    "year_min": "1960",
+    "year_max": "2013",
+    "g": "368",
+    "city": "San Francisco",
+    "state": "CA",
+    "teams": "Oakland Raiders, San Francisco 49ers"
+  },
+  {
+    "stadium_name": "Mall of America Field",
+    "year_min": "1982",
+    "year_max": "2013",
+    "g": "261",
+    "city": "Minneapolis",
+    "state": "MN",
+    "teams": "Minnesota Vikings"
+  },
+  {
+    "stadium_name": "Rogers Centre",
+    "year_min": "2008",
+    "year_max": "2013",
+    "g": "6",
+    "city": "Toronto",
+    "state": "ON",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Giants Stadium",
+    "year_min": "1976",
+    "year_max": "2009",
+    "g": "492",
+    "city": "East Rutherford",
+    "state": "NJ",
+    "teams": "New York Giants, New York Jets"
+  },
+  {
+    "stadium_name": "Texas Stadium",
+    "year_min": "1971",
+    "year_max": "2008",
+    "g": "313",
+    "city": "Irving",
+    "state": "TX",
+    "teams": "Dallas Cowboys"
+  },
+  {
+    "stadium_name": "RCA Dome",
+    "year_min": "1984",
+    "year_max": "2007",
+    "g": "199",
+    "city": "Indianapolis",
+    "state": "IN",
+    "teams": "Indianapolis Colts"
+  },
+  {
+    "stadium_name": "Alamo Dome",
+    "year_min": "2005",
+    "year_max": "2005",
+    "g": "3",
+    "city": "San Antonio",
+    "state": "TX",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Sun Devil Stadium",
+    "year_min": "1988",
+    "year_max": "2005",
+    "g": "145",
+    "city": "Tempe",
+    "state": "AZ",
+    "teams": "Phoenix Cardinals"
+  },
+  {
+    "stadium_name": "Tiger Stadium (LSU)",
+    "year_min": "2005",
+    "year_max": "2005",
+    "g": "4",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "teams": "New Orleans Saints"
+  },
+  {
+    "stadium_name": "Stadium Name",
+    "year_min": "From",
+    "year_max": "To",
+    "g": "G",
+    "city": "City",
+    "state": "State",
+    "teams": "Primary Team(s)"
+  },
+  {
+    "stadium_name": "Memorial Stadium (Champaign)",
+    "year_min": "2002",
+    "year_max": "2002",
+    "g": "8",
+    "city": "Champaign",
+    "state": "IL",
+    "teams": "Chicago Bears"
+  },
+  {
+    "stadium_name": "Veterans Stadium",
+    "year_min": "1971",
+    "year_max": "2002",
+    "g": "257",
+    "city": "Philadelphia",
+    "state": "PA",
+    "teams": "Philadelphia Eagles"
+  },
+  {
+    "stadium_name": "Foxboro Stadium",
+    "year_min": "1971",
+    "year_max": "2001",
+    "g": "242",
+    "city": "Foxborough",
+    "state": "MA",
+    "teams": "New England Patriots"
+  },
+  {
+    "stadium_name": "Husky Stadium",
+    "year_min": "1994",
+    "year_max": "2001",
+    "g": "19",
+    "city": "Seattle",
+    "state": "WA",
+    "teams": "Seattle Seahawks"
+  },
+  {
+    "stadium_name": "Pontiac Silverdome",
+    "year_min": "1975",
+    "year_max": "2001",
+    "g": "212",
+    "city": "Pontiac",
+    "state": "MI",
+    "teams": "Detroit Lions"
+  },
+  {
+    "stadium_name": "Mile High Stadium",
+    "year_min": "1960",
+    "year_max": "2000",
+    "g": "320",
+    "city": "Denver",
+    "state": "CO",
+    "teams": "Denver Broncos"
+  },
+  {
+    "stadium_name": "Three Rivers Stadium",
+    "year_min": "1970",
+    "year_max": "2000",
+    "g": "254",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "teams": "Pittsburgh Steelers"
+  },
+  {
+    "stadium_name": "Cinergy Field",
+    "year_min": "1970",
+    "year_max": "1999",
+    "g": "234",
+    "city": "Cincinnati",
+    "state": "OH",
+    "teams": "Cincinnati Bengals"
+  },
+  {
+    "stadium_name": "Seattle Kingdome",
+    "year_min": "1976",
+    "year_max": "1999",
+    "g": "187",
+    "city": "Seattle",
+    "state": "WA",
+    "teams": "Seattle Seahawks"
+  },
+  {
+    "stadium_name": "Vanderbilt Stadium",
+    "year_min": "1998",
+    "year_max": "1998",
+    "g": "8",
+    "city": "Nashville",
+    "state": "TN",
+    "teams": "Tennessee Oilers"
+  },
+  {
+    "stadium_name": "Houlihan's Stadium",
+    "year_min": "1969",
+    "year_max": "1997",
+    "g": "176",
+    "city": "Tampa",
+    "state": "FL",
+    "teams": "Tampa Bay Buccaneers"
+  },
+  {
+    "stadium_name": "Liberty Bowl Memorial Stadium",
+    "year_min": "1997",
+    "year_max": "1997",
+    "g": "8",
+    "city": "Memphis",
+    "state": "TN",
+    "teams": "Tennessee Oilers"
+  },
+  {
+    "stadium_name": "Memorial Stadium (Baltimore)",
+    "year_min": "1946",
+    "year_max": "1997",
+    "g": "261",
+    "city": "Baltimore",
+    "state": "MD",
+    "teams": "Baltimore Colts, Baltimore Colts, Baltimore Ravens"
+  },
+  {
+    "stadium_name": "Houston Astrodome",
+    "year_min": "1968",
+    "year_max": "1996",
+    "g": "223",
+    "city": "Houston",
+    "state": "TX",
+    "teams": "Houston Oilers"
+  },
+  {
+    "stadium_name": "RFK Memorial Stadium",
+    "year_min": "1961",
+    "year_max": "1996",
+    "g": "278",
+    "city": "Washington",
+    "state": "DC",
+    "teams": "Washington Redskins"
+  },
+  {
+    "stadium_name": "Busch Memorial Stadium",
+    "year_min": "1966",
+    "year_max": "1995",
+    "g": "163",
+    "city": "St. Louis",
+    "state": "MO",
+    "teams": "St. Louis Cardinals"
+  },
+  {
+    "stadium_name": "Cleveland Municipal Stadium",
+    "year_min": "1931",
+    "year_max": "1995",
+    "g": "388",
+    "city": "Cleveland",
+    "state": "OH",
+    "teams": "Cleveland Indians, Cleveland Rams, Cleveland Browns"
+  },
+  {
+    "stadium_name": "Memorial Stadium (Clemson)",
+    "year_min": "1995",
+    "year_max": "1995",
+    "g": "8",
+    "city": "Clemson",
+    "state": "SC",
+    "teams": "Carolina Panthers"
+  },
+  {
+    "stadium_name": "Anaheim Stadium",
+    "year_min": "1980",
+    "year_max": "1994",
+    "g": "118",
+    "city": "Anaheim",
+    "state": "CA",
+    "teams": "Los Angeles Rams"
+  },
+  {
+    "stadium_name": "Milwaukee County Stadium",
+    "year_min": "1953",
+    "year_max": "1994",
+    "g": "126",
+    "city": "Milwaukee",
+    "state": "WI",
+    "teams": "Green Bay Packers"
+  },
+  {
+    "stadium_name": "Rose Bowl",
+    "year_min": "1976",
+    "year_max": "1992",
+    "g": "5",
+    "city": "Pasadena",
+    "state": "CA",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Atlanta-Fulton County Stadium",
+    "year_min": "1966",
+    "year_max": "1991",
+    "g": "194",
+    "city": "Atlanta",
+    "state": "GA",
+    "teams": "Atlanta Falcons"
+  },
+  {
+    "stadium_name": "Stanford Stadium",
+    "year_min": "1984",
+    "year_max": "1989",
+    "g": "2",
+    "city": "Stanford",
+    "state": "CA",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Orange Bowl",
+    "year_min": "1946",
+    "year_max": "1986",
+    "g": "177",
+    "city": "Miami",
+    "state": "FL",
+    "teams": "Miami Seahawks, Miami Dolphins"
+  },
+  {
+    "stadium_name": "Shea Stadium",
+    "year_min": "1964",
+    "year_max": "1983",
+    "g": "150",
+    "city": "New York",
+    "state": "NY",
+    "teams": "New York Jets, New York Giants"
+  },
+  {
+    "stadium_name": "Stadium Name",
+    "year_min": "From",
+    "year_max": "To",
+    "g": "G",
+    "city": "City",
+    "state": "State",
+    "teams": "Primary Team(s)"
+  },
+  {
+    "stadium_name": "Metropolitan Stadium",
+    "year_min": "1959",
+    "year_max": "1981",
+    "g": "162",
+    "city": "Bloomington",
+    "state": "MN",
+    "teams": "Minnesota Vikings"
+  },
+  {
+    "stadium_name": "Tiger Stadium",
+    "year_min": "1921",
+    "year_max": "1974",
+    "g": "259",
+    "city": "Detroit",
+    "state": "MI",
+    "teams": "Detroit Panthers, Detroit Lions"
+  },
+  {
+    "stadium_name": "Tulane Stadium",
+    "year_min": "1938",
+    "year_max": "1974",
+    "g": "60",
+    "city": "New Orleans",
+    "state": "LA",
+    "teams": "New Orleans Saints"
+  },
+  {
+    "stadium_name": "Yale Bowl",
+    "year_min": "1973",
+    "year_max": "1974",
+    "g": "12",
+    "city": "New Haven",
+    "state": "CT",
+    "teams": "New York Giants"
+  },
+  {
+    "stadium_name": "California Memorial Stadium",
+    "year_min": "1973",
+    "year_max": "1973",
+    "g": "1",
+    "city": "Berkeley",
+    "state": "CA",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Rice Stadium",
+    "year_min": "1965",
+    "year_max": "1973",
+    "g": "22",
+    "city": "Houston",
+    "state": "TX",
+    "teams": "Houston Oilers"
+  },
+  {
+    "stadium_name": "Yankee Stadium",
+    "year_min": "1927",
+    "year_max": "1973",
+    "g": "169",
+    "city": "New York",
+    "state": "NY",
+    "teams": "New York Yankees, New York Yankees, New York Yanks, New York Giants"
+  },
+  {
+    "stadium_name": "War Memorial Stadium",
+    "year_min": "1938",
+    "year_max": "1972",
+    "g": "127",
+    "city": "Buffalo",
+    "state": "NY",
+    "teams": "Buffalo Bisons, Buffalo Bills"
+  },
+  {
+    "stadium_name": "Cotton Bowl",
+    "year_min": "1952",
+    "year_max": "1971",
+    "g": "107",
+    "city": "Dallas",
+    "state": "TX",
+    "teams": "Dallas Texans, Dallas Cowboys, Dallas Texans"
+  },
+  {
+    "stadium_name": "Kansas City Municipal Stadium",
+    "year_min": "1963",
+    "year_max": "1971",
+    "g": "64",
+    "city": "Kansas City",
+    "state": "MO",
+    "teams": "Kansas City Chiefs"
+  },
+  {
+    "stadium_name": "Dyche Stadium",
+    "year_min": "1970",
+    "year_max": "1970",
+    "g": "1",
+    "city": "Evanston",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Franklin Field",
+    "year_min": "1958",
+    "year_max": "1970",
+    "g": "89",
+    "city": "Philadelphia",
+    "state": "PA",
+    "teams": "Philadelphia Eagles"
+  },
+  {
+    "stadium_name": "Harvard Stadium",
+    "year_min": "1962",
+    "year_max": "1970",
+    "g": "8",
+    "city": "Boston",
+    "state": "MA",
+    "teams": "Boston Patriots"
+  },
+  {
+    "stadium_name": "Kezar Stadium",
+    "year_min": "1946",
+    "year_max": "1970",
+    "g": "170",
+    "city": "San Francisco",
+    "state": "CA",
+    "teams": "San Francisco 49ers, Oakland Raiders"
+  },
+  {
+    "stadium_name": "Wrigley Field",
+    "year_min": "1920",
+    "year_max": "1970",
+    "g": "371",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": "Chicago Bears, Chicago Cardinals"
+  },
+  {
+    "stadium_name": "Alumni Stadium",
+    "year_min": "1963",
+    "year_max": "1969",
+    "g": "9",
+    "city": "Chestnut Hill",
+    "state": "MA",
+    "teams": "Boston Patriots"
+  },
+  {
+    "stadium_name": "Grant Field",
+    "year_min": "1969",
+    "year_max": "1969",
+    "g": "1",
+    "city": "Atlanta",
+    "state": "GA",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Memorial Stadium (Minnesota)",
+    "year_min": "1969",
+    "year_max": "1969",
+    "g": "1",
+    "city": "Minneapolis",
+    "state": "MN",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Nippert Stadium",
+    "year_min": "1968",
+    "year_max": "1969",
+    "g": "14",
+    "city": "Cincinnati",
+    "state": "OH",
+    "teams": "Cincinnati Bengals"
+  },
+  {
+    "stadium_name": "Pitt Stadium",
+    "year_min": "1958",
+    "year_max": "1969",
+    "g": "55",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "teams": "Pittsburgh Steelers"
+  },
+  {
+    "stadium_name": "Fenway Park",
+    "year_min": "1933",
+    "year_max": "1968",
+    "g": "90",
+    "city": "Boston",
+    "state": "MA",
+    "teams": "Boston Redskins, Boston Yanks, Boston Patriots"
+  },
+  {
+    "stadium_name": "Legion Field",
+    "year_min": "1968",
+    "year_max": "1968",
+    "g": "1",
+    "city": "Birmingham",
+    "state": "AL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Balboa Stadium",
+    "year_min": "1961",
+    "year_max": "1966",
+    "g": "45",
+    "city": "San Diego",
+    "state": "CA",
+    "teams": "San Diego Chargers"
+  },
+  {
+    "stadium_name": "Busch Stadium (Sportsman's Park)",
+    "year_min": "1923",
+    "year_max": "1965",
+    "g": "46",
+    "city": "St. Louis",
+    "state": "MO",
+    "teams": "St. Louis All-Stars, St. Louis Gunners, St. Louis Cardinals"
+  },
+  {
+    "stadium_name": "Frank Youell Field",
+    "year_min": "1962",
+    "year_max": "1965",
+    "g": "28",
+    "city": "Oakland",
+    "state": "CA",
+    "teams": "Oakland Raiders"
+  },
+  {
+    "stadium_name": "Stadium Name",
+    "year_min": "From",
+    "year_max": "To",
+    "g": "G",
+    "city": "City",
+    "state": "State",
+    "teams": "Primary Team(s)"
+  },
+  {
+    "stadium_name": "Jeppesen Stadium",
+    "year_min": "1960",
+    "year_max": "1964",
+    "g": "37",
+    "city": "Houston",
+    "state": "TX",
+    "teams": "Houston Oilers"
+  },
+  {
+    "stadium_name": "Forbes Field",
+    "year_min": "1933",
+    "year_max": "1963",
+    "g": "161",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "teams": "Pittsburgh Pirates, Chi/Pit Cards/Steelers"
+  },
+  {
+    "stadium_name": "Polo Grounds",
+    "year_min": "1920",
+    "year_max": "1963",
+    "g": "246",
+    "city": "New York",
+    "state": "NY",
+    "teams": "New York Giants, New York Bulldogs, New York Titans"
+  },
+  {
+    "stadium_name": "Braves Field",
+    "year_min": "1925",
+    "year_max": "1962",
+    "g": "31",
+    "city": "Boston",
+    "state": "MA",
+    "teams": "Boston Bulldogs, Boston Braves, Boston Patriots"
+  },
+  {
+    "stadium_name": "Griffith Stadium",
+    "year_min": "1921",
+    "year_max": "1960",
+    "g": "148",
+    "city": "Washington",
+    "state": "DC",
+    "teams": "Washington Redskins"
+  },
+  {
+    "stadium_name": "Comiskey Park",
+    "year_min": "1922",
+    "year_max": "1958",
+    "g": "134",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": "Chicago Cardinals"
+  },
+  {
+    "stadium_name": "Shibe Park",
+    "year_min": "1925",
+    "year_max": "1957",
+    "g": "105",
+    "city": "Philadelphia",
+    "state": "PA",
+    "teams": "Philadelphia Eagles"
+  },
+  {
+    "stadium_name": "City Stadium",
+    "year_min": "1925",
+    "year_max": "1956",
+    "g": "136",
+    "city": "Green Bay",
+    "state": "WI",
+    "teams": "Green Bay Packers"
+  },
+  {
+    "stadium_name": "Marquette Stadium",
+    "year_min": "1952",
+    "year_max": "1952",
+    "g": "3",
+    "city": "Milwaukee",
+    "state": "WI",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Rubber Bowl",
+    "year_min": "1941",
+    "year_max": "1952",
+    "g": "3",
+    "city": "Akron",
+    "state": "OH",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Wisconsin State Fair Park",
+    "year_min": "1934",
+    "year_max": "1951",
+    "g": "42",
+    "city": "West Allis",
+    "state": "WI",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Philadelphia Municipal Stadium",
+    "year_min": "1931",
+    "year_max": "1950",
+    "g": "23",
+    "city": "Philadelphia",
+    "state": "PA",
+    "teams": "Philadelphia Eagles"
+  },
+  {
+    "stadium_name": "Ebbets Field",
+    "year_min": "1926",
+    "year_max": "1948",
+    "g": "115",
+    "city": "New York",
+    "state": "NY",
+    "teams": "Brooklyn Lions, Brooklyn Dodgers, Brooklyn Dodgers"
+  },
+  {
+    "stadium_name": "League Park",
+    "year_min": "1920",
+    "year_max": "1945",
+    "g": "38",
+    "city": "Cleveland",
+    "state": "OH",
+    "teams": "Cleveland Indians, Cleveland Rams"
+  },
+  {
+    "stadium_name": "Erie Stadium",
+    "year_min": "1938",
+    "year_max": "1942",
+    "g": "2",
+    "city": "Erie",
+    "state": "PA",
+    "teams": ""
+  },
+  {
+    "stadium_name": "University of Detroit Stadium",
+    "year_min": "1928",
+    "year_max": "1940",
+    "g": "34",
+    "city": "Detroit",
+    "state": "MI",
+    "teams": "Detroit Wolverines, Detroit Lions"
+  },
+  {
+    "stadium_name": "Broadmoor Stadium",
+    "year_min": "1939",
+    "year_max": "1939",
+    "g": "1",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Laidley Field",
+    "year_min": "1938",
+    "year_max": "1938",
+    "g": "1",
+    "city": "Charleston",
+    "state": "WV",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Shaw Stadium",
+    "year_min": "1938",
+    "year_max": "1938",
+    "g": "3",
+    "city": "East Cleveland",
+    "state": "OH",
+    "teams": "Cleveland Rams"
+  },
+  {
+    "stadium_name": "Point Stadium",
+    "year_min": "1936",
+    "year_max": "1936",
+    "g": "1",
+    "city": "Johnstown",
+    "state": "PA",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Baker Bowl",
+    "year_min": "1920",
+    "year_max": "1935",
+    "g": "17",
+    "city": "Philadelphia",
+    "state": "PA",
+    "teams": "Frankford Yellow Jackets, Philadelphia Eagles"
+  },
+  {
+    "stadium_name": "Temple Stadium",
+    "year_min": "1934",
+    "year_max": "1935",
+    "g": "2",
+    "city": "Philadelphia",
+    "state": "PA",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Corcoran Field",
+    "year_min": "1934",
+    "year_max": "1934",
+    "g": "1",
+    "city": "Cincinnati",
+    "state": "OH",
+    "teams": "Cincinnati Reds"
+  },
+  {
+    "stadium_name": "Crosley Field",
+    "year_min": "1931",
+    "year_max": "1934",
+    "g": "7",
+    "city": "Cincinnati",
+    "state": "OH",
+    "teams": "Cincinnati Reds"
+  },
+  {
+    "stadium_name": "Triangle Park",
+    "year_min": "1920",
+    "year_max": "1934",
+    "g": "23",
+    "city": "Dayton",
+    "state": "OH",
+    "teams": "Dayton Triangles"
+  },
+  {
+    "stadium_name": "Stadium Name",
+    "year_min": "From",
+    "year_max": "To",
+    "g": "G",
+    "city": "City",
+    "state": "State",
+    "teams": "Primary Team(s)"
+  },
+  {
+    "stadium_name": "Universal Stadium",
+    "year_min": "1930",
+    "year_max": "1934",
+    "g": "26",
+    "city": "Portsmouth",
+    "state": "OH",
+    "teams": "Portsmouth Spartans"
+  },
+  {
+    "stadium_name": "Borchert Field",
+    "year_min": "1922",
+    "year_max": "1933",
+    "g": "25",
+    "city": "Milwaukee",
+    "state": "WI",
+    "teams": "Milwaukee Badgers"
+  },
+  {
+    "stadium_name": "Chicago Stadium",
+    "year_min": "1932",
+    "year_max": "1932",
+    "g": "1",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Thompson's Stadium",
+    "year_min": "1929",
+    "year_max": "1932",
+    "g": "26",
+    "city": "Staten Island",
+    "state": "NY",
+    "teams": "Staten Island Stapletons"
+  },
+  {
+    "stadium_name": "Cycledrome",
+    "year_min": "1925",
+    "year_max": "1931",
+    "g": "57",
+    "city": "Providence",
+    "state": "RI",
+    "teams": "Providence Steam Roller"
+  },
+  {
+    "stadium_name": "Loyola Stadium",
+    "year_min": "1931",
+    "year_max": "1931",
+    "g": "1",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Frankford Stadium",
+    "year_min": "1924",
+    "year_max": "1930",
+    "g": "76",
+    "city": "Philadelphia",
+    "state": "PA",
+    "teams": "Frankford Yellow Jackets"
+  },
+  {
+    "stadium_name": "Mills Stadium",
+    "year_min": "1930",
+    "year_max": "1930",
+    "g": "1",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Newark Schools Stadium",
+    "year_min": "1930",
+    "year_max": "1930",
+    "g": "4",
+    "city": "Newark",
+    "state": "NJ",
+    "teams": "Newark Tornadoes"
+  },
+  {
+    "stadium_name": "Nicollet Park",
+    "year_min": "1920",
+    "year_max": "1930",
+    "g": "16",
+    "city": "Minneapolis",
+    "state": "MN",
+    "teams": "Minneapolis Marines"
+  },
+  {
+    "stadium_name": "Velodrome",
+    "year_min": "1930",
+    "year_max": "1930",
+    "g": "2",
+    "city": "Newark",
+    "state": "NJ",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Bison Stadium",
+    "year_min": "1924",
+    "year_max": "1929",
+    "g": "24",
+    "city": "Buffalo",
+    "state": "NY",
+    "teams": "Buffalo Bisons"
+  },
+  {
+    "stadium_name": "Breese Stevens Field",
+    "year_min": "1929",
+    "year_max": "1929",
+    "g": "1",
+    "city": "Madison",
+    "state": "WI",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Kinsley Park",
+    "year_min": "1929",
+    "year_max": "1929",
+    "g": "1",
+    "city": "Providence",
+    "state": "RI",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Knights of Columbus Stadium",
+    "year_min": "1929",
+    "year_max": "1929",
+    "g": "5",
+    "city": "East Orange",
+    "state": "NJ",
+    "teams": "Orange Tornadoes"
+  },
+  {
+    "stadium_name": "Minersville Park",
+    "year_min": "1925",
+    "year_max": "1929",
+    "g": "32",
+    "city": "Minersville",
+    "state": "PA",
+    "teams": "Pottsville Maroons"
+  },
+  {
+    "stadium_name": "Normal Park",
+    "year_min": "1920",
+    "year_max": "1928",
+    "g": "31",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": "Chicago Cardinals"
+  },
+  {
+    "stadium_name": "Archbold Stadium",
+    "year_min": "1927",
+    "year_max": "1927",
+    "g": "1",
+    "city": "Syracuse",
+    "state": "NY",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Luna Park",
+    "year_min": "1927",
+    "year_max": "1927",
+    "g": "5",
+    "city": "Cleveland",
+    "state": "OH",
+    "teams": "Cleveland Bulldogs"
+  },
+  {
+    "stadium_name": "East Hartford Velodrome",
+    "year_min": "1926",
+    "year_max": "1926",
+    "g": "8",
+    "city": "East Hartford",
+    "state": "CT",
+    "teams": "Hartford Blues"
+  },
+  {
+    "stadium_name": "General Field",
+    "year_min": "1924",
+    "year_max": "1926",
+    "g": "7",
+    "city": "Akron",
+    "state": "OH",
+    "teams": "Akron Pros"
+  },
+  {
+    "stadium_name": "Horlick Legion Field",
+    "year_min": "1922",
+    "year_max": "1926",
+    "g": "21",
+    "city": "Racine",
+    "state": "WI",
+    "teams": "Racine Legion"
+  },
+  {
+    "stadium_name": "Lakeside Park",
+    "year_min": "1920",
+    "year_max": "1926",
+    "g": "33",
+    "city": "Canton",
+    "state": "OH",
+    "teams": "Canton Bulldogs"
+  },
+  {
+    "stadium_name": "Muehlebach Field",
+    "year_min": "1924",
+    "year_max": "1926",
+    "g": "6",
+    "city": "Kansas City",
+    "state": "MO",
+    "teams": "Kansas City Blues"
+  },
+  {
+    "stadium_name": "Turner Field",
+    "year_min": "1926",
+    "year_max": "1926",
+    "g": "1",
+    "city": "Hammond",
+    "state": "IN",
+    "teams": "Hammond Pros"
+  },
+  {
+    "stadium_name": "Stadium Name",
+    "year_min": "From",
+    "year_max": "To",
+    "g": "G",
+    "city": "City",
+    "state": "State",
+    "teams": "Primary Team(s)"
+  },
+  {
+    "stadium_name": "West Side Athletic Club Field",
+    "year_min": "1924",
+    "year_max": "1926",
+    "g": "3",
+    "city": "Columbus",
+    "state": "OH",
+    "teams": "Columbus Tigers"
+  },
+  {
+    "stadium_name": "Clarkin Field",
+    "year_min": "1925",
+    "year_max": "1925",
+    "g": "1",
+    "city": "Hartford",
+    "state": "CT",
+    "teams": ""
+  },
+  {
+    "stadium_name": "DePaul Field",
+    "year_min": "1920",
+    "year_max": "1925",
+    "g": "2",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Douglas Park",
+    "year_min": "1920",
+    "year_max": "1925",
+    "g": "33",
+    "city": "Rock Island",
+    "state": "IL",
+    "teams": "Rock Island Independents"
+  },
+  {
+    "stadium_name": "Duluth Athletic Park",
+    "year_min": "1923",
+    "year_max": "1925",
+    "g": "7",
+    "city": "Duluth",
+    "state": "MN",
+    "teams": "Duluth Kelleys"
+  },
+  {
+    "stadium_name": "Bellevue Park",
+    "year_min": "1923",
+    "year_max": "1924",
+    "g": "12",
+    "city": "Green Bay",
+    "state": "WI",
+    "teams": "Green Bay Packers"
+  },
+  {
+    "stadium_name": "Edgerton Park",
+    "year_min": "1920",
+    "year_max": "1924",
+    "g": "7",
+    "city": "Rochester",
+    "state": "NY",
+    "teams": "Rochester Jeffersons"
+  },
+  {
+    "stadium_name": "Nash Employees' Field",
+    "year_min": "1924",
+    "year_max": "1924",
+    "g": "1",
+    "city": "Kenosha",
+    "state": "WI",
+    "teams": "Kenosha Maroons"
+  },
+  {
+    "stadium_name": "Armory Park",
+    "year_min": "1923",
+    "year_max": "1923",
+    "g": "3",
+    "city": "Toledo",
+    "state": "OH",
+    "teams": "Toledo Maroons"
+  },
+  {
+    "stadium_name": "Buffalo Baseball Park",
+    "year_min": "1920",
+    "year_max": "1923",
+    "g": "14",
+    "city": "Buffalo",
+    "state": "NY",
+    "teams": "Buffalo All-Americans"
+  },
+  {
+    "stadium_name": "Gleason Park",
+    "year_min": "1920",
+    "year_max": "1923",
+    "g": "2",
+    "city": "Gary",
+    "state": "IN",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Neil Park",
+    "year_min": "1920",
+    "year_max": "1923",
+    "g": "9",
+    "city": "Columbus",
+    "state": "OH",
+    "teams": "Columbus Panhandles"
+  },
+  {
+    "stadium_name": "Parkway Field",
+    "year_min": "1923",
+    "year_max": "1923",
+    "g": "1",
+    "city": "Louisville",
+    "state": "KY",
+    "teams": "Louisville Brecks"
+  },
+  {
+    "stadium_name": "Wooster Avenue Stadium",
+    "year_min": "1923",
+    "year_max": "1923",
+    "g": "1",
+    "city": "Akron",
+    "state": "OH",
+    "teams": "Akron Pros"
+  },
+  {
+    "stadium_name": "Hagemeister Park",
+    "year_min": "1921",
+    "year_max": "1922",
+    "g": "9",
+    "city": "Green Bay",
+    "state": "WI",
+    "teams": "Green Bay Packers"
+  },
+  {
+    "stadium_name": "Kentucky Fairgrounds",
+    "year_min": "1922",
+    "year_max": "1922",
+    "g": "1",
+    "city": "Louisville",
+    "state": "KY",
+    "teams": ""
+  },
+  {
+    "stadium_name": "League Park",
+    "year_min": "1920",
+    "year_max": "1922",
+    "g": "15",
+    "city": "Akron",
+    "state": "OH",
+    "teams": "Akron Pros"
+  },
+  {
+    "stadium_name": "Lincoln Park",
+    "year_min": "1922",
+    "year_max": "1922",
+    "g": "1",
+    "city": "Marion",
+    "state": "OH",
+    "teams": "Oorang Indians"
+  },
+  {
+    "stadium_name": "Swayne Field",
+    "year_min": "1922",
+    "year_max": "1922",
+    "g": "6",
+    "city": "Toledo",
+    "state": "OH",
+    "teams": "Toledo Maroons"
+  },
+  {
+    "stadium_name": "Bosse Field",
+    "year_min": "1921",
+    "year_max": "1921",
+    "g": "4",
+    "city": "Evansville",
+    "state": "IN",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Canisius Field",
+    "year_min": "1920",
+    "year_max": "1921",
+    "g": "17",
+    "city": "Buffalo",
+    "state": "NY",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Eclipse Park",
+    "year_min": "1921",
+    "year_max": "1921",
+    "g": "1",
+    "city": "Louisville",
+    "state": "KY",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Rochester Baseball Park",
+    "year_min": "1920",
+    "year_max": "1921",
+    "g": "11",
+    "city": "Rochester",
+    "state": "NY",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Staley Field",
+    "year_min": "1920",
+    "year_max": "1921",
+    "g": "4",
+    "city": "Decatur",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Walnut Street Park",
+    "year_min": "1921",
+    "year_max": "1921",
+    "g": "1",
+    "city": "Muncie",
+    "state": "IN",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Stadium Name",
+    "year_min": "From",
+    "year_max": "To",
+    "g": "G",
+    "city": "City",
+    "state": "State",
+    "teams": "Primary Team(s)"
+  },
+  {
+    "stadium_name": "Boulevard Field",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "Richmond",
+    "state": "VA",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Kishwaukee Park",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "Rockford",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "League Park",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "2",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Logan Square Park",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Lorain Athletic Field",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "Lorain",
+    "state": "OH",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Mack Park",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "4",
+    "city": "Detroit",
+    "state": "MI",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Mark Athletic Field",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "2",
+    "city": "Zanesville",
+    "state": "OH",
+    "teams": ""
+  },
+  {
+    "stadium_name": "McKinley Field",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "Champaign",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Monmouth College Athletic Park",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "Monmouth",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Pullman Athletic Field",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Pyott's Park",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "St. Rita's Stadium",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "Chicago",
+    "state": "IL",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Weiss Field",
+    "year_min": "1920",
+    "year_max": "1920",
+    "g": "1",
+    "city": "New Haven",
+    "state": "CT",
+    "teams": ""
+  },
+  {
+    "stadium_name": "Aloha Stadium",
+    "year_min": "",
+    "year_max": "",
+    "g": "0",
+    "city": "Honolulu",
+    "state": "HI",
+    "teams": ""
+  },
+  {
+    "stadium_name": "IG Field",
+    "year_min": "",
+    "year_max": "",
+    "g": "0",
+    "city": "Winnipeg",
+    "state": "MB",
+    "teams": ""
+  }
+]

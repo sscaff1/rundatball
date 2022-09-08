@@ -35,6 +35,7 @@ export default function Index({ posts }) {
               description={post.data.description}
               date={post.data.date}
               img={post.data.img}
+              imgAlt={post.data.imgAlt}
             />
           ))}
         </div>

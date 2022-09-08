@@ -46,7 +46,7 @@ export default function PostPage({ code, frontmatter, slug }) {
                   src={frontmatter.imgDetails}
                   layout="fill"
                   objectFit="cover"
-                  alt="Carson Wentz not magic"
+                  alt={frontmatter.imgAltDetails}
                 />
               </div>
             )}
