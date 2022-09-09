@@ -274,6 +274,8 @@
       "team": "Houston Texans",
       "winTotal": "4.5",
       "overPrice": "Over 4.5 (+100)",
-      "underPrice": "Under 4.5 (-120)"
+      "underPrice": "Under 4.5 (-120)",
+      "prediction": "Over",
+      "confidence": "1"
   }
 ]
