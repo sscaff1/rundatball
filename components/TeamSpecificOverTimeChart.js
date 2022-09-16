@@ -48,6 +48,7 @@ const statsByTeam = teams.reduce((obj, name) => {
 const allMetricsAcrossAllYears = Object.values(jsonStats).reduce((arr, t) => [...arr, ...t], []);
 
 const years = [
+  '2022',
   '2021',
   '2020',
   '2019',
