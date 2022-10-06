@@ -2,6 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const p = require('puppeteer');
 
+const file = fs.createWriteStream(path.join(__dirname, '../stats/byYearStats.json'));
+
 async function getTeamStats(browser, { year }) {
   const page = await browser.newPage();
   await page.setDefaultNavigationTimeout(0);
@@ -18,6 +20,7 @@ async function getTeamStats(browser, { year }) {
       ...document.querySelectorAll(`#afc_playoff_standings tbody tr[data-row] [data-stat]`),
       ...document.querySelectorAll(`#nfc_playoff_standings tbody tr[data-row] [data-stat]`),
     ];
+
     const teams = {};
     let currentTeam;
     let conferencePlace = 1;
@@ -51,6 +54,13 @@ async function getTeamStats(browser, { year }) {
       if (el.dataset.stat === 'team') {
         const teamName = el.innerText.trim();
         currentTeam = transform[teamName] || teamName;
+        if (!teams[currentTeam]) {
+          teams[currentTeam] = {
+            ...teams[currentTeam],
+            currentTeamName: currentTeam,
+            teamName,
+          };
+        }
       } else {
         teams[currentTeam] = {
           ...teams[currentTeam],
@@ -60,22 +70,19 @@ async function getTeamStats(browser, { year }) {
     });
     return teams;
   });
+
   await page.close();
-  return Object.values(data).map((d) => d);
+  file.write(`"${year}": ${JSON.stringify(Object.values(data).map((d) => d))}, `);
 }
 
 (async () => {
   const browser = await p.launch({ headless: false });
-  const years = [2022];
-  const promises = years.map((y) => getTeamStats(browser, { year: y }));
-  const teamsByYear = await Promise.all(promises);
-  const json = years.reduce(
-    (obj, y, i) => ({
-      ...obj,
-      [y]: teamsByYear[i],
-    }),
-    {},
-  );
+  file.write('{');
+  for (let year = 2010; year <= 2022; year += 1) {
+    // eslint-disable-next-line no-await-in-loop
+    await getTeamStats(browser, { year });
+  }
   await browser.close();
-  fs.writeFileSync(path.join(__dirname, '../stats/byYearStats.json'), JSON.stringify(json));
+  file.write('}');
+  file.end();
 })();

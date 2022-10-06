@@ -21,8 +21,6 @@ const optionStats = [
   { label: 'Offensive plays', stat: 'plays_offense' },
   { label: 'Yards per play', stat: 'yds_per_play_offense' },
   { label: 'Turnovers', stat: 'turnovers' },
-  { label: 'Fumbles lost', stat: 'fumbles_lost' },
-  { label: 'First downs', stat: 'first_down' },
   { label: 'Net yards per attempt', stat: 'pass_net_yds_per_att' },
   { label: 'Passing first downs', stat: 'pass_fd' },
   { label: 'Rushing attempts', stat: 'rush_att' },
@@ -32,22 +30,7 @@ const optionStats = [
   { label: 'Percent of drives ending in a TD', stat: 'score_pct' },
   { label: 'Percent of drives ending in a turnover', stat: 'turnover_pct' },
 ];
-
-const years = [
-  '2022',
-  '2021',
-  '2020',
-  '2019',
-  '2018',
-  '2017',
-  '2016',
-  '2015',
-  '2014',
-  '2013',
-  '2012',
-  '2011',
-  '2010',
-];
+const years = Object.keys(jsonStats).reverse();
 
 const svgWidthBig = 800;
 const svgHeightBig = 600;
@@ -78,7 +61,7 @@ const TeamCharts = () => {
     const xAxisDraw = g.append('g').attr('class', 'x axis');
     const yAxisDraw = g.append('g').attr('class', 'y axis');
     let metric = 'pass_yds';
-    let year = '2021';
+    let year = '2022';
     const updateChart = () => {
       // scales
       const stats = jsonStats[year].sort((a, b) => d3.descending(a[metric], b[metric]));
@@ -153,7 +136,7 @@ const TeamCharts = () => {
         );
       yAxis.tickFormat((d) => {
         const team = stats.find((t) => t.currentTeamName === d);
-        return `${d} (${team.conferencePlace})`;
+        return `${d} ${team.conferencePlace ? `(${team.conferencePlace})` : ''}`;
       });
       xAxisDraw.transition().duration(500).call(xAxis.scale(xScale));
       yAxisDraw
@@ -214,7 +197,7 @@ const TeamCharts = () => {
             <p>Select a stat</p>
             <select name="stat" id="statSelect">
               {optionStats.map((stat) => (
-                <option key={`option-${stat.stat}`} value={stat.stat}>
+                <option key={`option-stat-${stat.stat}`} value={stat.stat}>
                   {stat.label}
                 </option>
               ))}

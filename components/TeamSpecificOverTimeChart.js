@@ -21,8 +21,6 @@ const optionStats = [
   { label: 'Offensive plays', stat: 'plays_offense' },
   { label: 'Yards per play', stat: 'yds_per_play_offense' },
   { label: 'Turnovers', stat: 'turnovers' },
-  { label: 'Fumbles lost', stat: 'fumbles_lost' },
-  { label: 'First downs', stat: 'first_down' },
   { label: 'Net yards per attempt', stat: 'pass_net_yds_per_att' },
   { label: 'Passing first downs', stat: 'pass_fd' },
   { label: 'Rushing attempts', stat: 'rush_att' },
@@ -47,21 +45,7 @@ const statsByTeam = teams.reduce((obj, name) => {
 
 const allMetricsAcrossAllYears = Object.values(jsonStats).reduce((arr, t) => [...arr, ...t], []);
 
-const years = [
-  '2022',
-  '2021',
-  '2020',
-  '2019',
-  '2018',
-  '2017',
-  '2016',
-  '2015',
-  '2014',
-  '2013',
-  '2012',
-  '2011',
-  '2010',
-];
+const years = Object.keys(jsonStats);
 
 const svgWidthBig = 900;
 const svgHeightBig = 600;
@@ -264,7 +248,7 @@ const TeamOverTimeChart = () => {
             <p>Select a team</p>
             <select name="team" id="teamSelectByTeam">
               {teams.map((team) => (
-                <option key={`option-${team}`} value={team}>
+                <option key={`chart-2-option-${team}`} value={team}>
                   {team}
                 </option>
               ))}
@@ -274,7 +258,7 @@ const TeamOverTimeChart = () => {
             <p>Select a stat</p>
             <select name="stat" id="statSelectByTeam">
               {optionStats.map((stat) => (
-                <option key={`option-${stat.stat}`} value={stat.stat}>
+                <option key={`chart-2-option-stat-${stat.stat}`} value={stat.stat}>
                   {stat.label}
                 </option>
               ))}
