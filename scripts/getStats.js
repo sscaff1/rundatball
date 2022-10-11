@@ -1,6 +1,18 @@
 const fs = require('fs');
 const path = require('path');
-const p = require('puppeteer');
+const p = require('puppeteer-extra');
+const { DEFAULT_INTERCEPT_RESOLUTION_PRIORITY } = require('puppeteer');
+
+// Add adblocker plugin, which will transparently block ads in all pages you
+// create using puppeteer.
+const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker');
+
+p.use(
+  AdblockerPlugin({
+    // Optionally enable Cooperative Mode for several request interceptors
+    interceptResolutionPriority: DEFAULT_INTERCEPT_RESOLUTION_PRIORITY,
+  }),
+);
 
 const file = fs.createWriteStream(path.join(__dirname, '../stats/byYearStats.json'));
 
