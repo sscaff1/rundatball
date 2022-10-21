@@ -33,19 +33,21 @@ const optionStats = [
 
 const teams = Object.keys(teamColors);
 const statsByTeam = teams.reduce((obj, name) => {
-  const teamStatsByYear = Object.entries(jsonStats).reduce(
-    (teamArr, [year, arr]) => [
+  const teamStatsByYear = Object.entries(jsonStats).reduce((teamArr, [year, arr]) => {
+    if (year < 2010) {
+      return teamArr;
+    }
+    return [
       ...teamArr,
       { ...arr.find((a) => a.currentTeamName === name), year: new Date(year, 0) },
-    ],
-    [],
-  );
+    ];
+  }, []);
   return { ...obj, [name]: teamStatsByYear };
 }, {});
 
 const allMetricsAcrossAllYears = Object.values(jsonStats).reduce((arr, t) => [...arr, ...t], []);
 
-const years = Object.keys(jsonStats);
+const years = Object.keys(jsonStats).filter((y) => y >= 2010);
 
 const svgWidthBig = 900;
 const svgHeightBig = 600;
