@@ -2,10 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const p = require('puppeteer-extra');
 const { DEFAULT_INTERCEPT_RESOLUTION_PRIORITY } = require('puppeteer');
+const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker');
+const currentStats = require('../stats/byYearStats.json');
+
+const YEAR = 2022;
 
 // Add adblocker plugin, which will transparently block ads in all pages you
 // create using puppeteer.
-const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker');
 
 p.use(
   AdblockerPlugin({
@@ -15,6 +18,12 @@ p.use(
 );
 
 const file = fs.createWriteStream(path.join(__dirname, '../stats/byYearStats.json'));
+
+delete currentStats[YEAR];
+
+const currentJSONString = JSON.stringify(currentStats);
+file.write(currentJSONString.slice(0, -1));
+file.write(',');
 
 async function getTeamStats(browser, { year }) {
   const page = await browser.newPage();
@@ -84,13 +93,12 @@ async function getTeamStats(browser, { year }) {
   });
 
   await page.close();
-  file.write(`"${year}": ${JSON.stringify(Object.values(data).map((d) => d))}, `);
+  file.write(`"${year}": ${JSON.stringify(Object.values(data).map((d) => d))}`);
 }
 
 (async () => {
   const browser = await p.launch({ headless: false });
-  file.write('{');
-  for (let year = 2022; year <= 2022; year += 1) {
+  for (let year = YEAR; year <= YEAR; year += 1) {
     // eslint-disable-next-line no-await-in-loop
     await getTeamStats(browser, { year });
   }

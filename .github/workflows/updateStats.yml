@@ -1,0 +1,21 @@
+name: Update team stats
+on:
+  schedule:
+    - cron: '*/30 */2 * * *'
+jobs:
+  update_team_stats:
+    name: Update team stats
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.12.1
+          cache: npm
+      - name: npm ci
+        run: npm ci
+      - name: Run script
+        run: |
+          node scripts/getStats.js
