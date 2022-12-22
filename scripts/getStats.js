@@ -97,7 +97,10 @@ async function getTeamStats(browser, { year }) {
 }
 
 (async () => {
-  const browser = await p.launch({ headless: false });
+  const browser = await p.launch({
+    executablePath: process.env.PUPPETEER_EXEC_PATH,
+    headless: false,
+  });
   for (let year = YEAR; year <= YEAR; year += 1) {
     // eslint-disable-next-line no-await-in-loop
     await getTeamStats(browser, { year });
