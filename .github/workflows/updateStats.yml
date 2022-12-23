@@ -1,7 +1,4 @@
 name: Update team stats
-on:
-  schedule:
-    - cron: '*/30 */2 * * *'
 jobs:
   update_team_stats:
     name: Update team stats
@@ -16,10 +13,7 @@ jobs:
           cache: npm
       - name: npm ci
         run: npm ci
-        env:
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
       - name: Run script
-        uses: mujo-code/puppeteer-headful@18.9.0
-        with:
-          args: node scripts/getStats.js
+        run: |
+          node scripts/getStats.js
           
