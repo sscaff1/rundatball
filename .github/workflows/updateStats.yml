@@ -1,5 +1,6 @@
 name: Update team stats
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
 jobs:
   update_team_stats:
     name: Update team stats
@@ -13,8 +14,10 @@ jobs:
           node-version: 18.12.1
           cache: npm
       - name: npm ci
-        run: npm ci
+        uses: tj-actions/puppeteer@v3.2
+        with:
+          args: npm ci
       - name: Run script
-        run: |
-          node scripts/getStats.js
-          
+        uses: tj-actions/puppeteer@v3.2
+        with:
+          args: node scripts/getStats.js          
