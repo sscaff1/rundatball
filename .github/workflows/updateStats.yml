@@ -1,4 +1,5 @@
 name: Update team stats
+on: workflow_dispatch
 jobs:
   update_team_stats:
     name: Update team stats
