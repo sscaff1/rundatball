@@ -14,8 +14,8 @@ jobs:
           node-version: 18.12.1
           cache: npm
       - name: npm ci
-        with:
-          args: npm ci
+        run: npm ci
       - name: Run script
         uses: mujo-code/puppeteer-headful@16.6.0
-        run: node scripts/getStats.js
+        with:
+          args: node scripts/getStats.js
